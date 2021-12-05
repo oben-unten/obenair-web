@@ -54,7 +54,7 @@ export default function FullWidthImage({
           />
         )}
         {(title || subheading) && (
-          <div
+          <div className="space-y-3"
             style={{
               // By using the same grid area for both, they are stacked on top of each other
               gridArea: "1/1",
@@ -66,33 +66,12 @@ export default function FullWidthImage({
           >
             {/* Any content here will be centered in the component */}
             {title && (
-              <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                style={{
-                  boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
-                  color: "white",
-                  lineHeight: "1",
-                  padding: "0.25em",
-                }}
-              >
+              <h1 className="text-5xl px-2 py-0.5 bg-white border border-black">
                 {title}
               </h1>
             )}
             {subheading && (
-              <h3
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-                style={{
-                  boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
-                  color: "white",
-                  lineHeight: "1",
-                  padding: "0.25rem",
-                  marginTop: "0.5rem",
-                }}
-              >
+              <h3 className="text-3xl px-2 py-0.5 bg-white border border-black">
                 {subheading}
               </h3>
             )}
