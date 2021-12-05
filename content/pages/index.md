@@ -1,5 +1,5 @@
 ---
-title: Oben Air Festival
+title: Oben Air Festival!
 image: ../uploads/home-bg.jpg
 heading: Oben Air Festival
 subheading: Grenzübergreifendes Musik- und Kunstfestival.
