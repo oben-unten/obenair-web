@@ -4,7 +4,12 @@ module.exports = {
     title: "Oben Air",
   },
   plugins: [
-    "gatsby-plugin-netlify-cms",
+    {
+      resolve: "gatsby-plugin-netlify-cms",
+      options: {
+        modulePath: "./src/cms/cms.js",
+      },
+    },
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",

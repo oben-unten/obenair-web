@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
+local_backend: true
 media_folder: content/uploads
 public_folder: /img
 
@@ -9,11 +10,12 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "content/pages/index.md"
+      - file: "content/pages/IndexPage.md"
         label: "Startseite"
-        name: "index"
+        name: "IndexPage"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
           - { label: Subheading, name: subheading, widget: string }
+          - { label: Inhalt, name: body, widget: markdown }
