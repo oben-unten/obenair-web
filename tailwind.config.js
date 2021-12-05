@@ -1,11 +1,16 @@
 module.exports = {
   purge: ['./src/**/*.{js,jsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
   theme: {
+    fontFamily: {
+      'serif': ['Ribes Black', 'ui-serif', 'Georgia', 'serif']
+    },
     extend: {},
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
