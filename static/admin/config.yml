@@ -10,9 +10,9 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "content/pages/IndexPage.md"
+      - file: "content/pages/Startseite.md"
         label: "Startseite"
-        name: "IndexPage"
+        name: "Startseite"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }

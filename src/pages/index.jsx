@@ -8,7 +8,7 @@ const Startseite = ({
   data: {
     file: {
       childMarkdownRemark: {
-        html: html,
+        html,
         frontmatter: {
           image,
           title,

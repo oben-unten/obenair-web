@@ -11,25 +11,13 @@ const StartseiteTemplate = ({
 
   return <>
     <FullWidthImage img={image} title={title} subheading={subheading} height={1400} />
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <div className="content">
-                      {body}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <section className="bg-white border-b py-8">
+      <div className="container max-w-5xl mx-auto m-8">
+        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+          {heading}
+        </h1>
+        <div className="w-5/6 sm:w-1/2 p-6 text-gray-600">
+          {body}
         </div>
       </div>
     </section>

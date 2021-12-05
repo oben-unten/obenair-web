@@ -10,7 +10,7 @@ module.exports = {
         modulePath: "./src/cms/cms.js",
       },
     },
-    "gatsby-plugin-sass",
+    "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
