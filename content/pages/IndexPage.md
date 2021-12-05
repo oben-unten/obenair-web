@@ -1,6 +1,6 @@
 ---
 title: Oben Air Festival!
-image: /img/86853642_612127562667821_4896613010677694464_o.jpg
+image: ../uploads/home-bg.jpg
 heading: Oben Air Festival
 subheading: Grenzübergreifendes Musik- und Kunstfestival.
 ---
