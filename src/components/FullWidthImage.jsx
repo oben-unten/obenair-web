@@ -6,7 +6,7 @@ export default function FullWidthImage({
     img,
     title,
     subheading,
-    imgPosition = "top left",
+    imgPosition = "bottom",
 }) {
 
   return (
@@ -16,6 +16,7 @@ export default function FullWidthImage({
         style={{
           display: "grid",
           alignItems: "center",
+          gridTemplateRows: "repeat(2, 50%)",
         }}
       >
         {img?.url ? (
@@ -24,7 +25,7 @@ export default function FullWidthImage({
             objectFit={"cover"}
             objectPosition={imgPosition}
             style={{
-              gridArea: "1/1",
+              gridArea: "1/1/3/1",
               // You can set a maximum height for the image, if you wish.
               height: height,
               width: "100%",
@@ -41,7 +42,7 @@ export default function FullWidthImage({
             objectFit={"cover"}
             objectPosition={imgPosition}
             style={{
-              gridArea: "1/1",
+              gridArea: "1/1/3/1",
               // You can set a maximum height for the image, if you wish.
               maxHeight: height,
             }}

@@ -10,7 +10,7 @@ const StartseiteTemplate = ({
 }) => {
 
   return <>
-    <FullWidthImage img={image} title={title} subheading={subheading} height={'80vh'} />
+    <FullWidthImage img={image} title={title} subheading={subheading} height={'90vh'} />
     <section className="bg-white border-b py-8">
       <div className="container max-w-5xl mx-auto m-8">
         <h1 className="w-full my-2 text-5xl font-serif leading-tight text-center text-gray-800">
