@@ -1,7 +1,7 @@
 import React from "react";
 import FullWidthImage from "../components/FullWidthImage";
   
-const IndexPageTemplate = ({
+const StartseiteTemplate = ({
   body,
   image,
   title,
@@ -36,4 +36,4 @@ const IndexPageTemplate = ({
   </>;
 };
 
-export default IndexPageTemplate;
+export default StartseiteTemplate;

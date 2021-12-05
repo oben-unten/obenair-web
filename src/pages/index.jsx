@@ -1,10 +1,10 @@
 import React from "react";
 import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
-import IndexPageTemplate from "../templates/IndexPageTemplate";
+import StartseiteTemplate from "../templates/StartseiteTemplate";
 import Layout from "../components/Layout";
 
-const IndexPage = ({
+const Startseite = ({
   data: {
     file: {
       childMarkdownRemark: {
@@ -24,15 +24,15 @@ const IndexPage = ({
   const body = <span dangerouslySetInnerHTML={{ __html: html }} /> 
 
   return <Layout>
-    <IndexPageTemplate {...{body, image, title, heading, subheading}} />
+    <StartseiteTemplate {...{body, image, title, heading, subheading}} />
   </Layout>;
 };
 
-export default IndexPage;
+export default Startseite;
 
 export const pageQuery = graphql`
   query {
-    file(relativePath: {eq: "IndexPage.md"}) {
+    file(relativePath: {eq: "Startseite.md"}) {
       childMarkdownRemark {
         html
         frontmatter {
