@@ -4,7 +4,7 @@ backend:
 
 local_backend: true
 media_folder: content/uploads
-public_folder: /img
+public_folder: ../uploads
 
 collections:
   - name: "pages"
