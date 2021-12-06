@@ -21,9 +21,9 @@ export default function FullWidthImage({
         {img?.url ? (
           <img
             src={img}
-            objectFit={"cover"}
-            objectPosition={imgPosition}
             style={{
+              objectPosition: imgPosition,
+              objectFit: "cover",
               gridArea: "1/1/3/1",
               // You can set a maximum height for the image, if you wish.
               height: height,
@@ -38,9 +38,9 @@ export default function FullWidthImage({
         ) : (
           <GatsbyImage
             image={img}
-            objectFit={"cover"}
-            objectPosition={imgPosition}
             style={{
+              objectPosition: imgPosition,
+              objectFit: "cover",
               gridArea: "1/1/3/1",
               // You can set a maximum height for the image, if you wish.
               maxHeight: height,
@@ -64,7 +64,7 @@ export default function FullWidthImage({
               display: "grid",
             }}
           >
-            <h1 className="text-5xl px-2 py-0.5 bg-white border border-black">
+            <h1 className="text-2xl md:text-4xl lg:text-5xl px-2 py-0.5 bg-white border border-black">
             {title}
             </h1>
           </div>
