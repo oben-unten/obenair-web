@@ -12,8 +12,7 @@ const Startseite = ({
         frontmatter: {
           image,
           title,
-          heading,
-          subheading
+          imageTitle,
         }
       }
     }
@@ -24,7 +23,7 @@ const Startseite = ({
   const body = <span dangerouslySetInnerHTML={{ __html: html }} /> 
 
   return <Layout>
-    <StartseiteTemplate {...{body, image, title, heading, subheading}} />
+    <StartseiteTemplate {...{body, image, title, imageTitle}} />
   </Layout>;
 };
 
@@ -42,8 +41,7 @@ export const pageQuery = graphql`
               gatsbyImageData(quality: 100, layout: FULL_WIDTH)
             }
           }
-          heading
-          subheading
+          imageTitle
         }
       }
     }

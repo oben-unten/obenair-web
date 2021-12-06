@@ -14,8 +14,11 @@ collections:
         label: "Startseite"
         name: "Startseite"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
+          - { label: Bild, name: image, widget: image }
+          - { label: Bildtitel, name: imageTitle, widget: string }
+          - { label: Inhalt, name: body, widget: markdown }
+      - file: "content/pages/Verein.md"
+        label: "Oben Unten e.V."
+        name: "Verein"
+        fields:
           - { label: Inhalt, name: body, widget: markdown }

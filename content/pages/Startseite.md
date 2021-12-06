@@ -1,8 +1,6 @@
 ---
-title: Oben Air Festival
 image: ../uploads/home-bg.jpg
-heading: Oben Air Festival
-subheading: Grenzübergreifendes Musik- und Kunstfestival.
+imageTitle: Oben ist die Luft am dünsten.
 ---
 # Support Oben Air
 

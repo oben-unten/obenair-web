@@ -14,8 +14,8 @@ const Navbar = () => {
 
     return <>
         <nav className={`${(scrolled || dropdownToggled) && 'bg-white'} fixed w-full z-30 top-0 duration-300 ease-in-out`}>
-            <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
-                <div className="pl-4 flex items-center">
+            <div className="w-full container mx-20 flex flex-wrap items-center justify-between mt-0 py-2">
+                <div className="flex items-center">
                     <Link className="toggleColour no-underline hover:no-underline font-bold text-2xl lg:text-4xl font-serif" to="/">
                         Oben Air
                     </Link>
