@@ -22,10 +22,10 @@ const Navbar = () => {
                 </div>
                 <div className="block lg:hidden pr-4">
                     <button id="nav-toggle" className="flex items-center p-1 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onClick={() => setDropdownToggled(!dropdownToggled)}>
-                    <svg className="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <title>Menu</title>
-                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                    </svg>
+                        <svg className="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <title>Menu</title>
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                        </svg>
                     </button>
                 </div>
                 <div className={`${!dropdownToggled && 'hidden'} w-full flex-grow lg:flex lg:items-center lg:w-auto mt-2 lg:mt-0 text-black p-4 lg:p-0 z-20`}>
@@ -33,7 +33,7 @@ const Navbar = () => {
                         <li className="mr-3">
                             <Link className="inline-block py-2 px-4 text-black" activeClassName="font-bold" to="/">Festival</Link>
                         </li>
-                        <li className="mr-3">
+                        <li>
                             <Link className="inline-block py-2 px-4 text-black" activeClassName="font-bold" to="/verein">Oben Unten e.V.</Link>
                         </li>
                     </ul>
