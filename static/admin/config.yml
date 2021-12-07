@@ -18,7 +18,7 @@ collections:
           - { label: Bildtitel, name: imageTitle, widget: string }
           - { label: Inhalt, name: body, widget: markdown }
       - file: "content/pages/Verein.md"
-        label: "Oben Unten e.V."
+        label: "Oben & Unten e.V."
         name: "Verein"
         fields:
           - { label: Inhalt, name: body, widget: markdown }

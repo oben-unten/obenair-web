@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className="w-full px-5 lg:px-20 flex flex-wrap items-center justify-between mt-0 py-2">
                 <div className="flex items-center">
                     <Link className="toggleColour no-underline hover:no-underline font-bold text-2xl lg:text-4xl font-serif" to="/">
-                        Oben Air
+                        Oben Air.
                     </Link>
                 </div>
                 <div className="block lg:hidden pr-4">
@@ -34,7 +34,7 @@ const Navbar = () => {
                             <Link className="inline-block py-2 px-4 text-black" activeClassName="font-bold" to="/">Festival</Link>
                         </li>
                         <li>
-                            <Link className="inline-block py-2 px-4 text-black" activeClassName="font-bold" to="/verein">Oben Unten e.V.</Link>
+                            <Link className="inline-block py-2 px-4 text-black" activeClassName="font-bold" to="/verein">Oben &amp; Unten e.V.</Link>
                         </li>
                     </ul>
                 </div>
