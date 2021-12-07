@@ -1,6 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
 import { Helmet } from "react-helmet";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => <>
     <Helmet>
@@ -9,6 +10,7 @@ const Layout = ({ children }) => <>
     </Helmet>
     <Navbar />
     { children }
+    <Footer />
 </>;
 
 export default Layout;
