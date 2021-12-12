@@ -1,5 +1,5 @@
 ---
-image: ../uploads/analfoto.jpg
+image: ../uploads/home-bg.jpg
 imageTitle: Oben ist die Luft am dünsten.
 ---
 # Support Oben Air
