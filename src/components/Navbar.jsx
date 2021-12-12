@@ -13,7 +13,7 @@ const Navbar = () => {
     }, []);
 
     return <>
-        <nav className={`${(scrolled || dropdownToggled) ? 'bg-white' : 'bg-transparent'} fixed w-full z-30 top-0 duration-300 ease-in-out`}>
+        <nav className={`${(scrolled || dropdownToggled) ? 'bg-yellow-50' : 'bg-transparent'} fixed w-full z-30 top-0 duration-300 ease-in-out`}>
             <div className="w-full px-5 lg:px-20 flex flex-wrap items-center justify-between mt-0 py-2">
                 <div className="flex items-center">
                     <Link className="toggleColour no-underline hover:no-underline font-bold text-2xl lg:text-4xl font-serif" to="/">
