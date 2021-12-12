@@ -57,5 +57,16 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Oben Air Festival",
+        short_name: "Oben Air",
+        start_url: "/",
+        background_color: "#fefce8",
+        theme_color: "#fefce8",
+        icon: "src/images/favicon.png",
+      }
+    }
   ],
 };
