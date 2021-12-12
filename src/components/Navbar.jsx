@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className="w-full px-5 lg:px-20 flex flex-wrap items-center justify-between mt-0 py-2">
                 <div className="flex items-center">
                     <Link className="toggleColour no-underline hover:no-underline font-bold text-2xl lg:text-4xl font-serif" to="/">
-                        Oben Air.
+                        oben air.
                     </Link>
                 </div>
                 <div className="block lg:hidden pr-4">
