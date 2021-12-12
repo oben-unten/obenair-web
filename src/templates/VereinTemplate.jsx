@@ -1,5 +1,4 @@
 import React from "react";
-import FullWidthImage from "../components/FullWidthImage";
 import Image from "../components/Image";
   
 const VereinTemplate = ({ body, image }) => <>
