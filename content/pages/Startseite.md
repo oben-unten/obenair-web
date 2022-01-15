@@ -1,9 +1,5 @@
 ---
 image: ../uploads/home-bg.jpg
-imageTitle: Oben ist die Luft am dünsten.
+imageTitle: oben air.
 ---
-# Support Oben Air
-
-Crowdfunding Kampagne Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\
-\
-DIESER TEXT IST NEU
+Oben sein ist nicht besser. Höher sein schafft keinen besseren Überblick. Erhöhung ist Entfernung. Was das Oben für uns bedeutet, ist etwas völlig Anderes. Wir wollen Nähe, Berührung und Weitsicht. Wir blicken nicht herab, wir sind auf Augenhöhe. Oben sein heißt kommunizieren und inne halten. Oben sein ist intuitiv und aufmerksam. Oben sein heißt Tauchen und Schweben. Immer mittendrin. Wir möchten einen Raum erschaffen, der kein Utopia ist, kein Gegenentwurf zu scheinbar Verstaubtem. Wir befinden uns in mitten einer Natur- und Kulturlandschaft, die durch Mitmachen, Anpacken und Fehler entstanden ist und immer neu entsteht. Wir möchten Teil dieser Entwicklung sein. Musikalisch, künstlerisch, angreifbar, ambitioniert und genügsam.
