@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
             <div className="pt-4 text-gray-800 text-sm">
                 Oben &amp; Unten Kulturveranstaltungen e.V.<br/>
-                Gilbertstraße 3<br/>
+                Gilbertstraße 7<br/>
                 54290 Trier
             </div>
         </div>
