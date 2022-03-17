@@ -36,7 +36,7 @@ const StartseiteTemplate = ({
     </section>
 
     <section className="bg-light lg:py-8">
-      <div className="container max-w-5xl mx-auto">
+      <div className="container flex max-w-5xl mx-auto text-right justify-end">
         <div className="p-6 text-on-light prose lg:prose-xl">
           {text2}
         </div>
