@@ -16,4 +16,4 @@ photo2: ../uploads/home-photo-2.jpg
 
 Damit das Festival wie gewohnt stattfinden kann, brauchen wir **eure** Unterstützung!
 
-                                       Sichert euch **Tickets**, **Übernachtungen** und mehr im [**Crowdfunding**](https://startnext.de/obenair).
+Sichert euch **Tickets**, **Übernachtungen** und mehr im [**Crowdfunding**](https://startnext.de/obenair).
