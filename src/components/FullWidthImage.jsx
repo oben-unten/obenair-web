@@ -15,7 +15,6 @@ export default function FullWidthImage({
         style={{
           display: "grid",
           alignItems: "center",
-          gridTemplateRows: "repeat(2, 50%)",
         }}
       >
         {img?.url ? (
@@ -24,14 +23,10 @@ export default function FullWidthImage({
             style={{
               objectPosition: imgPosition,
               objectFit: "cover",
-              gridArea: "1/1/3/1",
-              // You can set a maximum height for the image, if you wish.
+              gridArea: "1/1",
               height: height,
               width: "100%",
             }}
-            // You can optionally force an aspect ratio for the generated image
-            aspectratio={3 / 1}
-            // This is a presentational image, so the alt should be an empty string
             alt=""
             formats={["auto", "webp", "avif"]}
           />
@@ -41,14 +36,10 @@ export default function FullWidthImage({
             style={{
               objectPosition: imgPosition,
               objectFit: "cover",
-              gridArea: "1/1/3/1",
-              // You can set a maximum height for the image, if you wish.
+              gridArea: "1/1",
               maxHeight: height,
             }}
             layout="fullWidth"
-            // You can optionally force an aspect ratio for the generated image
-            aspectratio={3 / 1}
-            // This is a presentational image, so the alt should be an empty string
             alt=""
             formats={["auto", "webp", "avif"]}
           />

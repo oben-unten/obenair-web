@@ -10,6 +10,10 @@ text3: |
     Oben sein ist nicht besser. Höher sein schafft keinen besseren Überblick. Erhöhung ist Entfernung. Was das Oben für uns bedeutet, ist etwas völlig Anderes. Wir wollen Nähe, Berührung und Weitsicht. Wir blicken nicht herab, wir sind auf Augenhöhe. Oben sein heißt kommunizieren und inne halten. Oben sein ist intuitiv und aufmerksam. Oben sein heißt Tauchen und Schweben. Immer mittendrin. Wir möchten einen Raum erschaffen, der kein Utopia ist, kein Gegenentwurf zu scheinbar Verstaubtem. Wir befinden uns in mitten einer Naturund Kulturlandschaft, die durch Mitmachen, Anpacken und Fehler entstanden ist und immer neu entsteht. Wir möchten Teil dieser Entwicklung sein. Musikalisch, künstlerisch, angreifbar, ambitioniert und genügsam.
 photo2: ../uploads/home-photo-2.jpg
 ---
-# Oben Air 2022
-Wir brauchen eure Unterstützung!
-[>> zum Crowdfunding](https://startnext.de/asdf)
+# oben air
+
+## **13.** und **14. Mai 2022**
+
+Damit das Festival wie gewohnt stattfinden kann, brauchen wir **eure** Unterstützung!
+
+                                       Sichert euch **Tickets**, **Übernachtungen** und mehr im [**Crowdfunding**](https://startnext.de/obenair).
