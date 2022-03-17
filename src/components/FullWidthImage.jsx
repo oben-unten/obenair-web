@@ -64,9 +64,7 @@ export default function FullWidthImage({
               display: "grid",
             }}
           >
-            <h1 className="text-2xl md:text-4xl lg:text-5xl px-2 py-0.5 bg-white border border-black">
             {title}
-            </h1>
           </div>
         )}
       </div>

@@ -11,8 +11,12 @@ const Startseite = ({
         html,
         frontmatter: {
           image,
-          title,
-          imageTitle,
+          video,
+          text1,
+          text2,
+          text3,
+          photo1,
+          photo2,
         }
       }
     }
@@ -20,10 +24,12 @@ const Startseite = ({
 }) => {
 
   if (image) image = getImage(image);
+  if (photo1) photo1 = getImage(photo1);
+  if (photo2) photo2 = getImage(photo2);
   const body = <span dangerouslySetInnerHTML={{ __html: html }} /> 
 
   return <Layout>
-    <StartseiteTemplate {...{body, image, title, imageTitle}} />
+    <StartseiteTemplate {...{body, image, video, text1, text2, text3, photo1, photo2}} />
   </Layout>;
 };
 
@@ -35,13 +41,25 @@ export const pageQuery = graphql`
       childMarkdownRemark {
         html
         frontmatter {
-          title
           image {
             childImageSharp {
               gatsbyImageData(quality: 100, layout: FULL_WIDTH)
             }
           }
-          imageTitle
+          video
+          text1
+          text2
+          text3
+          photo1 {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
+          }
+          photo2 {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
+          }
         }
       }
     }
