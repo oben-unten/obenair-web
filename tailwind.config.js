@@ -3,10 +3,12 @@ module.exports = {
   darkMode: false,
   theme: {
     colors: {
-      dark: '#745b9d',
-      light: '#c29cc2',
+      header: '#745b9d',
+      dark: '#c29cc2',
+      light: '#efefef',
+      'on-header': '#fff',
       'on-dark': '#fff',
-      'on-light': '#fff',
+      'on-light': '#333',
     },
     fontFamily: {
       'serif': ['Ribes Black', 'ui-serif', 'Georgia', 'serif'],
