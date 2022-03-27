@@ -53,6 +53,7 @@ export default function FullWidthImage({
               // This centers the other elements inside the hero component
               placeItems: "center",
               display: "grid",
+              zIndex: 20,
             }}
           >
             {title}
