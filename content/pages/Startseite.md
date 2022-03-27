@@ -12,8 +12,8 @@ photo2: ../uploads/home-photo-2.jpg
 ---
 # oben air
 
-## **13.** und **14. Mai 2022**
+## **2022**        
 
-Damit das Festival wie gewohnt stattfinden kann, brauchen wir **eure** Unterstützung!
+**Es wird auch in diesem Jahr ein Oben Air geben!**
 
-Sichert euch **Tickets**, **Übernachtungen** und mehr im [**Crowdfunding**](https://www.startnext.com/oben-air-festival-2022).
+Mehr Informationen demnächst ...
