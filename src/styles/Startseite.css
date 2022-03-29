@@ -27,6 +27,13 @@
 
 .header-image h1 {
     font-size: 6em;
+    margin-bottom: -0.3em;
+}
+
+@media screen and (orientation: portrait) {
+    .header-image h1 {
+        margin-left: 15vw;
+    }
 }
 
 .header-image h2 {
@@ -34,13 +41,27 @@
     text-align: right;
     @apply font-sans-serif;
     @apply text-on-dark;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
+}
+
+@media screen and (orientation: portrait) {
+    .header-image h2 {
+        margin-right: 15vw;
+    }
 }
 
 .header-image p {
     font-size: 1.3em;
     @apply text-on-dark;
     line-height: 2em;
+}
+
+@media screen and (orientation: portrait) {
+    .header-image p {
+        font-size: 2em;
+        @apply text-on-dark;
+        line-height: 2em;
+    }
 }
 
 .header-image a {

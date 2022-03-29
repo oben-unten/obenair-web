@@ -45,7 +45,7 @@ export default function FullWidthImage({
           />
         )}
         {title && (
-          <div className="p-3"
+          <div
             style={{
               // By using the same grid area for both, they are stacked on top of each other
               gridArea: "1/1",
