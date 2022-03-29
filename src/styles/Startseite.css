@@ -15,6 +15,12 @@
     z-index: 10;
 }
 
+@media screen and (orientation: portrait) {
+    .background {
+        background-position: 50vw -20vh;
+    }
+}
+
 .header-image {
     font-size: 2vw;
 }
