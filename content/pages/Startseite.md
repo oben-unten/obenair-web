@@ -52,4 +52,4 @@ photo2: ../uploads/home-photo-2.jpg
 
 **2./3. September 2022**
 
-Oben ist die Luft am dünsten!
+Tickets [](https://www.ticket-regional.de/events.php?eventseriesID=710&mysearchEventseries=710)[hier](https://www.ticket-regional.de/events.php?eventseriesID=710&mysearchEventseries=710) ...
