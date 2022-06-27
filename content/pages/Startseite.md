@@ -22,6 +22,8 @@ photo2: ../uploads/home-photo-2.jpg
 ---
 # oben air
 
-## **2\. + 3\. September 2022**        
+## **2\./3\. September** 2022        
+
+**Feuerwehrhütte Pünderich** (Waldrand)
 
 zum [**Vorverkauf**](https://www.ticket-regional.de/events.php?eventseriesID=710&mysearchEventseries=710) ...
