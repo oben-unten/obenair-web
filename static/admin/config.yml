@@ -22,7 +22,7 @@ collections:
           - { label: Text 2, name: text2, widget: string }
           - { label: Foto 1, name: photo1, widget: image }
           - { label: Text 3, name: text3, widget: string }
-          - { label: Foto 2, name: photo1, widget: image }
+          - { label: Foto 2, name: photo2, widget: image }
 
       - file: "content/pages/Verein.md"
         label: "Oben & Unten e.V."
