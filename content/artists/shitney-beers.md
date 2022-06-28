@@ -1,6 +1,6 @@
 ---
 title: Shitney Beers
-photo: ../uploads/shitneybeers.webp
+image: ../uploads/shitneybeers.webp
 video: Vmt3SieTXm8
 spotify: 17ghMPiifubfyIujm3sEBa
 ---

@@ -1,6 +1,6 @@
 ---
 title: PBSL
-photo: ../uploads/pbsl.jpg
+image: ../uploads/pbsl.jpg
 video: 7ZfzduzVK7k
 spotify: 7hEb0j5dqvBXBrCqrb6XX0
 year: 2022

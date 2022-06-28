@@ -30,6 +30,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: "./content/artists",
+        name: "artists",
+      },
+    },
+    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
