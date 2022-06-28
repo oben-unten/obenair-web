@@ -11,14 +11,14 @@ collections:
     label: "Pages"
     files:
     
-      - file: "content/pages/Startseite.md"
+      - name: "Startseite"
         label: "Startseite"
-        name: "Startseite"
+        file: "content/pages/Startseite.md"
         fields:
           - { label: Bild, name: image, widget: image }
           - { label: Inhalt, name: body, widget: markdown }
           - { label: Text 1, name: text1, widget: string }
-          - { label: Video, name: video, widget: string }
+          - { label: Youtube Video ID, name: video, widget: string }
           - { label: Text 2, name: text2, widget: string }
           - { label: Foto 1, name: photo1, widget: image }
           - { label: Text 3, name: text3, widget: string }
@@ -29,3 +29,15 @@ collections:
         name: "Verein"
         fields:
           - { label: Inhalt, name: body, widget: markdown }
+
+  - name: "Artists"
+    label: "Lineup"
+    folder: "content/artists"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Bio, name: body, widget: markdown }
+      - { label: Foto, name: photo, widget: image }
+      - { label: Youtube Video ID, name: video, widget: string }
+      - { label: Spotify Artist ID, name: spotify, widget: string }
+      - { label: Jahr, name: year, widget: datetime, format: "YYYY", date_format: true, time_format: false }
