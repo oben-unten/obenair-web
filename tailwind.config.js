@@ -1,6 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx}'],
-  darkMode: false,
+  content: ['./src/**/*.{js,jsx}'],
   theme: {
     colors: {
       header: '#745b9d',
@@ -14,9 +13,6 @@ module.exports = {
       'serif': ['Ribes Black', 'ui-serif', 'Georgia', 'serif'],
       'sans-serif': ['Helvetica', 'ui-sans-serif', 'sans-serif'],
     },
-    extend: {},
-  },
-  variants: {
     extend: {},
   },
   plugins: [
