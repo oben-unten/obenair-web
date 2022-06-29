@@ -2,9 +2,9 @@ import React from "react";
 import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
-import LineupTemplate from "../templates/LineupTemplate";
+import ArtistsTemplate from "../templates/ArtistsTemplate";
 
-const Lineup = ({
+const Artists = ({
   data: {
     allFile: {
       edges
@@ -13,18 +13,18 @@ const Lineup = ({
 }) => {
 
   return <Layout>
-    <LineupTemplate artists={ edges.map(mapEdges) } />
+    <ArtistsTemplate artists={ edges.map(mapEdges) } />
   </Layout>;
 };
 
-export default Lineup;
+export default Artists;
 
 export const pageQuery = graphql`
   query Artists {
     allFile(filter: {sourceInstanceName: {eq: "artists"}}) {
       edges {
         node {
-          id
+          name
           childMarkdownRemark {
             html
             frontmatter {
@@ -47,6 +47,7 @@ export const pageQuery = graphql`
 
 const mapEdges = ({
   node: {
+    name,
     childMarkdownRemark: {
       html,
       frontmatter: {
@@ -59,6 +60,7 @@ const mapEdges = ({
     }
   }
 }) => ({
+  name,
   bio: <span dangerouslySetInnerHTML={{ __html: html }} />,
   title,
   image: getImage(image),

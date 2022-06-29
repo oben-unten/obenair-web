@@ -8,6 +8,8 @@ module.exports = {
       'on-header': '#fff',
       'on-dark': '#fff',
       'on-light': '#333',
+      black: 'black',
+      white: 'white',
     },
     fontFamily: {
       'serif': ['Ribes Black', 'ui-serif', 'Georgia', 'serif'],
