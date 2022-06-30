@@ -26,7 +26,6 @@ export const pageQuery = graphql`
         node {
           name
           childMarkdownRemark {
-            html
             frontmatter {
               title
               image {
@@ -34,9 +33,6 @@ export const pageQuery = graphql`
                   gatsbyImageData(quality: 100, layout: FULL_WIDTH)
                 }
               }
-              video
-              spotify
-              year
             }
           }
         }
@@ -49,22 +45,14 @@ const mapEdges = ({
   node: {
     name,
     childMarkdownRemark: {
-      html,
       frontmatter: {
         title,
         image,
-        video,
-        spotify,
-        year,
       }
     }
   }
 }) => ({
   name,
-  bio: <span dangerouslySetInnerHTML={{ __html: html }} />,
   title,
   image: getImage(image),
-  video,
-  spotify,
-  year,
 })
