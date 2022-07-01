@@ -1,20 +1,23 @@
 ---
 image: ../uploads/oben_air_instagram_20220624.3522.jpg
-text1: "Am 2. Und 3. September 2022 findet die nunmehr 8. Ausgabe des
+text1: Am 2. Und 3. September 2022 findet die nunmehr 8. Ausgabe des
   Indie-Festivals in Pünderich statt. Zum ersten Mal dürfen es sich die Gäste
   auf dem einzigartigen Gelände am Waldrand (an der Feuerwehrhütte Pünderich),
   zwischen Weinbergen, Wiesen und Mischwald gemütlich machen und den Ausblick
   auf das Moseltal, mit schroffem Steinbruch, Hangviadukt und Steillagen sowie
-  vor allem der ehemaligen Location, der Marienburg, genießen. "
+  vor allem der ehemaligen Location, der Marienburg, genießen.
 video: 2nby41vuhGg
-text2: "Dass regionale Weingüter mit ihren edlen Tropfen für besondere Stimmung
-  auf den Gaumen sorgen, rundet das Gesamterlebnis ab.  Nebstdem: Zeltplatz in
-  unmittelbarer Nähe zum Festivalgelände; Cateringbereich mit diversen
-  Leckereien für alle Präferenzen; Frühstücksangebot; Kunstinstallationen;
-  Angebote für Kinder."
+text2: "Es warten, neben dem Blick in die Ferne, jedoch noch weitaus mehr
+  Verlockungen: Allen voran das musikalische Programm auf der Hauptbühne unter
+  einer großen Kastanie, sowie im magischen Fichtenhain, sorgt für
+  Besonderheiten, große und kleine Momente en masse. Dabei reicht die Bandbreite
+  von klassischen Indie-Nummern, über jazzige Sounds bis hin zu intimem
+  Zauberpop. "
 photo1: ../uploads/home-photo-1.jpg
-text3: "Dass regionale Weingüter mit ihren edlen Tropfen für besondere Stimmung
-  auf den Gaumen sorgen, rundet das Gesamterlebnis ab.  Nebstdem: Zeltplatz in
+text3: "Erstmalig findet das Festchen an zwei Tagen statt. Dabei wird der
+  Freitag ganz im Zeichen filmischer Kunst und einer Lesung stehen. Dass
+  regionale Weingüter mit ihren edlen Tropfen für besondere Stimmung auf den
+  Gaumen sorgen, rundet das Gesamterlebnis ab.  Nebstdem: Zeltplatz in
   unmittelbarer Nähe zum Festivalgelände; Cateringbereich mit diversen
   Leckereien für alle Präferenzen; Frühstücksangebot; Kunstinstallationen;
   Angebote für Kinder."
