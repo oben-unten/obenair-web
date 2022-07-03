@@ -23,14 +23,14 @@ const Artist = ({
   if (image) image = getImage(image);
 
   return <Layout>
-    <div className="pt-20 pb-5">
+    <div className="pt-10 mt-5">
       <div className="grid md:grid-cols-2 md:mx-20 gap-10">
         <div>
           <Image image={image} alt={`Foto von ${title}`} height={'90vh'} />
         </div>
-        <div>
+        <div className="px-5 pb-5">
           <h1 className="text-3xl md:text-5xl mb-5">{title}</h1>
-          <div className="mb-10" dangerouslySetInnerHTML={{ __html: html }} />
+          <div className="mb-10 prose lg:prose-xl" dangerouslySetInnerHTML={{ __html: html }} />
           <div className="grid grid-cols-2 gap-10">
             { video &&
               <div className="text-right">

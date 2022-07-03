@@ -28,7 +28,7 @@ const Startseite = ({
   if (photo2) photo2 = getImage(photo2);
   const body = <span dangerouslySetInnerHTML={{ __html: html }} /> 
 
-  return <Layout>
+  return <Layout transparent={true}>
     <StartseiteTemplate {...{body, image, video, text1, text2, text3, photo1, photo2}} />
   </Layout>;
 };
