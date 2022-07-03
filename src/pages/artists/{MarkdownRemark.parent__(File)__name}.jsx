@@ -29,7 +29,7 @@ const Artist = ({
           <Image image={image} alt={`Foto von ${title}`} height={'90vh'} />
         </div>
         <div>
-          <h1 className="text-5xl mb-5">{title}</h1>
+          <h1 className="text-3xl md:text-5xl mb-5">{title}</h1>
           <div className="mb-10" dangerouslySetInnerHTML={{ __html: html }} />
           <div className="grid grid-cols-2 gap-10">
             { video &&
