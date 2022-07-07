@@ -32,6 +32,13 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        path: "./content/info",
+        name: "info",
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         path: "./content/artists",
         name: "artists",
       },

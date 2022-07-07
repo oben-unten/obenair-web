@@ -41,3 +41,11 @@ collections:
       - { label: Youtube Video ID, name: video, widget: string }
       - { label: Spotify Artist ID, name: spotify, widget: string }
       - { label: Jahr, name: year, widget: datetime, format: "YYYY", date_format: true, time_format: false }
+
+  - name: "Info"
+    label: "Info"
+    folder: "content/info"
+    create: true
+    fields:
+      - { label: Thema, name: title, widget: string }
+      - { label: Text, name: body, widget: markdown }
