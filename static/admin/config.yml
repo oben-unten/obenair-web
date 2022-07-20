@@ -38,8 +38,8 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Bio, name: body, widget: markdown }
       - { label: Foto, name: image, widget: image }
-      - { label: Youtube Video ID, name: video, widget: string }
-      - { label: Spotify Artist ID, name: spotify, widget: string }
+      - { label: Youtube Video ID, name: video, widget: string, required: false }
+      - { label: Spotify Artist ID, name: spotify, widget: string, required: false }
       - { label: Jahr, name: year, widget: datetime, format: "YYYY", date_format: true, time_format: false }
 
   - name: "Info"
