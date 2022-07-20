@@ -1,6 +1,6 @@
 ---
 title: Ozan Tekin
-image: https://scontent-ber1-1.xx.fbcdn.net/v/t39.30808-6/290397826_5322244564488430_8361237208958744810_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=Dv40M7O2BAoAX-zSeX-&_nc_ht=scontent-ber1-1.xx&oh=00_AT8XK4Q61mV0v1_JJL_0Jj2HGYH8nNlD3nfgYwdTpFACMw&oe=62DCEB02
+image: ../uploads/290397826_5322244564488430_8361237208958744810_n.jpg
 video: RHw3ksQen2I
 spotify: 2qqYHg0fp5vMzjipmOsnez
 year: "2022"
