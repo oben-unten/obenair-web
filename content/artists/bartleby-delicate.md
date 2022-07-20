@@ -1,6 +1,6 @@
 ---
 title: Bartleby Delicate
-image: https://scontent-ber1-1.xx.fbcdn.net/v/t39.30808-6/291800405_5332787886767431_2021408771076048463_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=wsxkuyiBd30AX9BtmHY&_nc_ht=scontent-ber1-1.xx&oh=00_AT8FDLjbhdXqM51GTCzRjeugteWNOx0v0jcIDrTsFGJTYQ&oe=62DD8904
+image: ../uploads/291800405_5332787886767431_2021408771076048463_n.jpg
 video: EVsw_-Ra8Fs
 spotify: 6DT2ylaVtF44fewRp3Nxfa
 year: "2022"
