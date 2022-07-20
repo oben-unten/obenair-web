@@ -1,6 +1,6 @@
 ---
 title: CATT
-image: https://scontent-ber1-1.xx.fbcdn.net/v/t39.30808-6/292099587_521442463109930_3018088246054150909_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=rBWSBULayugAX-e0zcl&_nc_ht=scontent-ber1-1.xx&oh=00_AT-XrMsBVokuhxtGfGFL9Pl3GVp3-w7WuzsjR61Vy6DckA&oe=62DC1A27
+image: ../uploads/292099587_521442463109930_3018088246054150909_n.jpg
 video: UdVtofx3BxQ
 spotify: 4vECkYVXR5tUXqDk2LVzkJ
 year: "2022"
