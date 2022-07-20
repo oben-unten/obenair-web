@@ -14,7 +14,6 @@ const Artist = ({
         image,
         video,
         spotify,
-        year,
       }
     }
   }
@@ -66,7 +65,6 @@ export const query = graphql`
         }
         video
         spotify
-        year
       }
     }
   }
