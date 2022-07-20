@@ -48,7 +48,10 @@ const Navbar = ({ transparent=false }) => {
                             <Link className="inline-block py-2 px-4" activeClassName="font-bold" to="/">Festival</Link>
                         </li>
                         <li className="mr-3">
-                            <Link className="inline-block py-2 px-4" activeClassName="font-bold" to="/info">Info</Link>
+                            <Link className="inline-block py-2 px-4" activeClassName="font-bold" to="/artists">Lineup</Link>
+                        </li>
+                        <li className="mr-3">
+                            <Link className="inline-block py-2 px-4" activeClassName="font-bold" to="/info">Infos</Link>
                         </li>
                         <li>
                             <Link className="inline-block py-2 px-4" activeClassName="font-bold" to="/verein">Oben &amp; Unten e.V.</Link>
