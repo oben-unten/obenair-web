@@ -1,4 +1,8 @@
 ---
-title: Parken
+title: Camping
 ---
-Nisl suscipit adipiscing bibendum est ultricies. Pretium lectus quam id leo in vitae. Ut eu sem integer vitae justo. Fringilla ut morbi tincidunt augue interdum velit. Enim nulla aliquet porttitor lacus. Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Dui vivamus arcu felis bibendum ut tristique et. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Et malesuada fames ac turpis egestas maecenas pharetra. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Augue lacus viverra vitae congue eu consequat ac felis. 
+Campingtickets können im Vorverkauf sowie an der Abendkasse erworben werden. An der Kasse erhaltet ihr bei Vorlage bzw. Kauf des Tickets einen OA-Müllbeutel. Gebt ihr diesen mit Müll vom Festival voll gesammelt am Einlass ab, erhaltet ihr einen Getränkebon als Dankeschön. Über einen müllfreien Boden freuen sich nicht nur die Veranstalter\*innen und Helfer\*innen, sondern auch die Natur.
+
+Der Campingbereich befindet sich unterhalb vom Festivalgelände. Um das Ent- und Beladen zu erleichtern gibt es die Möglichkeit den Campingplatz unterhalb anzufahren. Wichtig: Beeilt euch mit dem Be- bzw. Entladen und haltet lediglich für diese Zeit mit dem Auto in dem vorgegebenen Bereich! Camper und Wohnmobile können ebenfalls in begrenzter Anzahl auf dem Campingbereich stehen. Früh kommen lohnt sich!
+
+Generell gilt – der Platz ist begrenzt, also Parken/Campen/Zelten mit Bedacht!
