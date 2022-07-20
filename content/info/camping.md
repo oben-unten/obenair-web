@@ -1,4 +1,4 @@
 ---
-title: Camping
-----
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor elit sed vulputate mi. Malesuada bibendum arcu vitae elementum curabitur. Neque convallis a cras semper auctor neque vitae tempus quam. Vitae sapien pellentesque habitant morbi tristique senectus et netus et.
+title: Barrierefreiheit
+---
+Das Festival ist barrierefrei, um allen Menschen einen Besuch zu ermöglichen. Um Rollstuhlfahrenden alle Bereiche zugänglich machen zu können, werden Rampen oder Überbrückungen an relevanten Stellen zur Verfügung stehen. Auch eine rollstuhlgerechte Toilette ist vorhanden.
