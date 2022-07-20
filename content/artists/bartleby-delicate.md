@@ -1,0 +1,8 @@
+---
+title: Bartleby Delicate
+image: https://scontent-ber1-1.xx.fbcdn.net/v/t39.30808-6/291800405_5332787886767431_2021408771076048463_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=wsxkuyiBd30AX9BtmHY&_nc_ht=scontent-ber1-1.xx&oh=00_AT8FDLjbhdXqM51GTCzRjeugteWNOx0v0jcIDrTsFGJTYQ&oe=62DD8904
+video: EVsw_-Ra8Fs
+spotify: 6DT2ylaVtF44fewRp3Nxfa
+year: "2022"
+---
+Georges Goerens aka. Barteleby Delicate, seines Zeichens Sänger der luxemburgischen Indiecombo Seed to Tree, tingelt seit 2017 mit seinem Soloprojekt durch ganz Europa. Garniert mit Gitarre, Synthesizer und allerlei Instrumentarium, werden Geschichten erzählt, die irgendwo zwischen Fiktion und Realität hin und her pendeln. Dabei veranlasst die stilsichere Kombination der Einflüsse durchaus dazu, das Label „Contemporary Liedermaching“ zu verpassen. Weil sich „Songwritern“ allerdings inflationär nahezu jeder Hansel auf die Fahne schreibt, sollte man an dieser Stelle vor allem das Zeitgemäße betonen. Denn Bartleby Delicate ist alles andere als beliebig oder gewöhnlich. Das zeichnet sich spätestens dann ab, wenn schwelgerische Phasen durch vertrackte Figuren abgelöst werden und sich Hand in Hand in den Bewegungsapparat einerseits und die Wangenmuskulatur andererseits schleichen. Wisst ihr - wir lassen das „Liedermacher“ einfach weg und freuen uns über einen kreativen Indiepop-Solisten der uns ganzheitlich, in wohliger Fichtenhain-Atmosphäre versorgt. Und jetzt atmen Sie bitte einmal tief durch.
