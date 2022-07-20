@@ -1,6 +1,6 @@
 ---
 title: NEØV
-image: https://scontent-ber1-1.xx.fbcdn.net/v/t39.30808-6/290599466_5337962739583279_6446465536718663396_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AA3F7eNEC90AX9B-atY&_nc_oc=AQmUoox-onNOvLRX6mU5kWnFOXxmARK3AnhcaVFN9t7UJr3NZvAVj-mq2wgDzA8P_CM&_nc_ht=scontent-ber1-1.xx&oh=00_AT-tfrvP3_ZXK04AehxPOnhE-LBgyS0KNa2pbYODQbi0tQ&oe=62DC534B
+image: ../uploads/290599466_5337962739583279_6446465536718663396_n.jpg
 video: Ka4UKpJS8cA
 spotify: 6TgS8LDntw71vz2Wf7TJ8h
 year: "2022"
