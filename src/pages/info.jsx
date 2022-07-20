@@ -22,7 +22,7 @@ export default Info;
 
 export const pageQuery = graphql`
   query Info {
-    allFile(filter: {sourceInstanceName: {eq: "info"}}) {
+    allFile(filter: {sourceInstanceName: {eq: "info"}}, sort: { fields: [childMarkdownRemark___frontmatter___title], order: ASC }) {
       edges {
         node {
           childMarkdownRemark {
