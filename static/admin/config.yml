@@ -24,10 +24,17 @@ collections:
           - { label: Text 3, name: text3, widget: string }
           - { label: Foto 2, name: photo2, widget: image }
 
+      - file: "content/pages/Helfen.md"
+        label: "Helfen"
+        name: "Helfen"
+        fields:
+          - { label: Inhalt, name: body, widget: markdown }
+
       - file: "content/pages/Verein.md"
-        label: "Mitgestalten"
+        label: "Oben & Unten e.V."
         name: "Verein"
         fields:
+          - { label: Bild, name: image, widget: image }
           - { label: Inhalt, name: body, widget: markdown }
 
   - name: "Artists"
