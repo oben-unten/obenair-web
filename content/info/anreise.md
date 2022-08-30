@@ -24,3 +24,7 @@ Hinter Reil sowie auch Zell ab der B53 ist der Weg zum Festival ausgeschildert. 
 unserer Beschilderung zu folgen, denn diese leitet euch direkt zu der richtigen Einfahrt für
 Besucher*innen und um das Dorf Pünderich herum. Die Anwohner*innen werden es euch
 danken.
+
+**Location Link**
+
+[GOOGLE MAPS](https://goo.gl/maps/UCJsL4qDmXMUF6rK9)
