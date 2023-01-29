@@ -21,7 +21,9 @@ export default Artists;
 
 export const pageQuery = graphql`
   query Artists {
-    allFile(filter: {sourceInstanceName: {eq: "artists"}}) {
+    allFile(
+      filter: {sourceInstanceName: {eq: "artists"}}
+    ) {
       edges {
         node {
           name

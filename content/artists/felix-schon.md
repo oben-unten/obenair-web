@@ -1,7 +1,7 @@
 ---
 title: Felix Schon
 image: ../uploads/felixschon_img2.jpg
-year: "2022"
+year: 2022
 ---
 Mehrere Landstriche beziehungsweise Ortschaften betrachten sich als geographischen Mittelpunkt Europas, da es verschiedene Verfahren zur Berechnung dessen gibt und außerdem die Grenzen Europas zu Asien hin nicht eindeutig festgelegt sind. Der Regisseur Felix Schon denkt da ganz pragmatisch und verlegt den Mittelpunkt kurzerhand nach Bernkastel. Aber eigentlich macht das auch nicht Felix Schon, sondern der Bürgermeister aus Bernkastel höchstpersönlich. Was das mit dem Oben Air zu tun hat? Nebst dem gewohnt musikalischen Samstag machen wir es uns am Freitag mit einer Lesung und Kurzfilmen im Fichtenhain gemütlich. Und davon, dass Felix Schon Kurzfilm kann durften sich bereits Anke Engelke, Carolin Kebekus sowie auch das Browser Ballet überzeugen. Umso besser das Schon direkt zwei seiner Kurzfilme mitbringen wird!
 
