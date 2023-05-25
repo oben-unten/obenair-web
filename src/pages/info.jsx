@@ -11,8 +11,6 @@ const Info = ({
   }
 }) => {
 
-    console.log({edges})
-
   return <Layout>
     <InfoTemplate info={ edges.map(mapInfo) } />
   </Layout>;
