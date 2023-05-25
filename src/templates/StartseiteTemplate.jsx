@@ -28,7 +28,7 @@ const StartseiteTemplate = ({
 
     <section className="bg-dark lg:py-8 relative">
       <div className="container max-w-5xl mx-auto">
-        <div className="p-5 text-on-dark prose lg:prose-xl">
+        <div className="py-16 font-extralight text-on-dark prose lg:prose-xl">
           {text1}
         </div>
       </div>
@@ -44,7 +44,7 @@ const StartseiteTemplate = ({
 
     <section className="bg-dark lg:py-8 relative">
       <div className="container flex max-w-5xl mx-auto text-right justify-end">
-        <div className="p-5 text-on-dark prose lg:prose-xl">
+        <div className="py-16 font-extralight text-on-dark prose lg:prose-xl">
           {text2}
         </div>
       </div>
@@ -58,7 +58,7 @@ const StartseiteTemplate = ({
 
     <section className="bg-dark lg:py-8 relative">
       <div className="container max-w-5xl mx-auto">
-        <div className="p-5 text-on-dark prose lg:prose-xl">
+        <div className="py-16 font-extralight text-on-dark prose lg:prose-xl">
           {text3}
         </div>
       </div>

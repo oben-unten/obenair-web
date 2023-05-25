@@ -1,6 +1,6 @@
 ---
 image: ../uploads/1px.png
-text1: Am 1. Und 2. September 2023 findet die nunmehr 9. Ausgabe des
+text1: Am **1. Und 2. September 2023** findet die nunmehr 9. Ausgabe des
   Indie-Festivals in Pünderich statt. Die Gäste dürfen es sich auf dem
   einzigartigen Gelände am Waldrand (an der Feuerwehrhütte Pünderich), zwischen
   Weinbergen, Wiesen und Mischwald gemütlich machen und den Ausblick auf das
