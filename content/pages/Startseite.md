@@ -19,7 +19,7 @@ text3: "Dass regionale Weingüter mit ihren edlen Tropfen für besondere Stimmun
   unmittelbarer Nähe zum Festivalgelände; Cateringbereich mit diversen
   Leckereien für alle Präferenzen; Frühstücksangebot; Kunstinstallationen;
   Angebote für Kinder."
-photo2: ../uploads/untitled_2.2.3.jpg
+photo2: ../uploads/sonne.png
 ---
 # oben air
 
