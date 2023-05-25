@@ -26,7 +26,7 @@ const StartseiteTemplate = ({
       <FullWidthImage img={image} title={body} height={'90vh'} />
     </div>
 
-    <section className="bg-dark lg:py-8 z-20 relative">
+    <section className="bg-dark lg:py-8 relative">
       <div className="container max-w-5xl mx-auto">
         <div className="p-5 text-on-dark prose lg:prose-xl">
           {text1}
@@ -42,7 +42,7 @@ const StartseiteTemplate = ({
       </div>
     </section>
 
-    <section className="bg-dark lg:py-8 z-20 relative">
+    <section className="bg-dark lg:py-8 relative">
       <div className="container flex max-w-5xl mx-auto text-right justify-end">
         <div className="p-5 text-on-dark prose lg:prose-xl">
           {text2}
@@ -56,7 +56,7 @@ const StartseiteTemplate = ({
       </div>
     </section>
 
-    <section className="bg-dark lg:py-8 z-20 relative">
+    <section className="bg-dark lg:py-8 relative">
       <div className="container max-w-5xl mx-auto">
         <div className="p-5 text-on-dark prose lg:prose-xl">
           {text3}
