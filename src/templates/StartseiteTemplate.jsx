@@ -17,10 +17,10 @@ const StartseiteTemplate = ({
 
   return <>
     
-    <StaticImage src="../images/Vogel_1.png" alt="" className="fixed z-20 -left-10 -bottom-10 w-1/3 md:w-1/4 lg:w-1/6" />
-    <StaticImage src="../images/Wolke.png" alt="" className="fixed z-10 -left-10 lg:left-0 -bottom-10 w-1/2 md:w-1/4" />
-    <StaticImage src="../images/Vogel_2.png" alt="" className="fixed z-20 -right-10 top-16 w-1/3 md:w-1/4 lg:w-1/6" />
-    <StaticImage src="../images/Sonne.png" alt="" className="fixed z-10 -right-10 -top-10 lg:-top-20 w-1/3 md:w-1/4 lg:w-1/6" />
+    <StaticImage src="../images/Vogel_1.png" alt="" className="!fixed z-20 -left-10 -bottom-10 w-1/3 md:w-1/4 lg:w-1/6" />
+    <StaticImage src="../images/Wolke.png" alt="" className="!fixed z-10 -left-10 lg:left-0 -bottom-10 w-1/2 md:w-1/4" />
+    <StaticImage src="../images/Vogel_2.png" alt="" className="!fixed z-20 -right-10 top-16 w-1/3 md:w-1/4 lg:w-1/6" />
+    <StaticImage src="../images/Sonne.png" alt="" className="!fixed z-10 -right-10 -top-10 lg:-top-20 w-1/3 md:w-1/4 lg:w-1/6" />
 
     <div className="header-image">
       <FullWidthImage img={image} title={body} height={'90vh'} />
