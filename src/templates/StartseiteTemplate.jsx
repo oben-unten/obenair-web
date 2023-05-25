@@ -26,15 +26,15 @@ const StartseiteTemplate = ({
       <FullWidthImage img={image} title={body} height={'90vh'} />
     </div>
 
-    <section className="bg-dark lg:py-8 relative">
+    <section className="bg-light lg:py-8 relative">
       <div className="container max-w-5xl mx-auto">
-        <div className="p-5 text-on-dark prose lg:prose-xl">
+        <div className="p-5 text-on-light prose lg:prose-xl">
           {text1}
         </div>
       </div>
     </section>
 
-    <section className="bg-light lg:py-8">
+    <section className="bg-dark lg:py-8">
       <div className="container max-w-5xl mx-auto">
         <div className="aspect-w-16 aspect-h-9">
           <iframe src={`https://www.youtube.com/embed/${video}?controls=0`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -42,29 +42,29 @@ const StartseiteTemplate = ({
       </div>
     </section>
 
-    <section className="bg-dark lg:py-8 relative">
+    <section className="bg-light lg:py-8 relative">
       <div className="container flex max-w-5xl mx-auto text-right justify-end">
-        <div className="p-5 text-on-dark prose lg:prose-xl">
+        <div className="p-5 text-on-light prose lg:prose-xl">
           {text2}
         </div>
       </div>
     </section>
 
-    <section className="bg-light lg:py-8">
+    <section className="bg-dark lg:py-8">
       <div className="container max-w-5xl mx-auto">
         <Image image={photo1} alt="Foto"/>
       </div>
     </section>
 
-    <section className="bg-dark lg:py-8 relative">
+    <section className="bg-light lg:py-8 relative">
       <div className="container max-w-5xl mx-auto">
-        <div className="p-5 text-on-dark prose lg:prose-xl">
+        <div className="p-5 text-on-light prose lg:prose-xl">
           {text3}
         </div>
       </div>
     </section>
 
-    <section className="bg-light lg:py-8">
+    <section className="bg-dark lg:py-8">
       <div className="container max-w-5xl mx-auto">
         <Image image={photo2} alt="Foto"/>
       </div>
