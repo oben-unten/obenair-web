@@ -19,7 +19,7 @@ const StartseiteTemplate = ({
     
     <StaticImage src="../images/Vogel_1.png" loading="eager" placeholder="none" alt="" className="!fixed z-20 -left-10 -bottom-10 w-1/3 md:w-1/4 xl:w-1/6" />
     <StaticImage src="../images/Wolke.png" loading="eager" placeholder="none" alt="" className="!fixed z-10 -left-10 xl:left-0 -bottom-10 w-1/2 md:w-1/4" />
-    <StaticImage src="../images/Vogel_2.png" loading="eager" placeholder="none" alt="" className="!fixed z-20 -right-20 xl:right-0 top-10 md:top-36 xl:top-60 w-1/2 md:w-1/3 xl:w-1/4" />
+    <StaticImage src="../images/Vogel_2.png" loading="eager" placeholder="none" alt="" className="!fixed z-20 -right-20 xl:-right-5 top-10 md:top-36 xl:top-60 w-1/2 md:w-1/3 xl:w-1/4" />
     <StaticImage src="../images/Sonne.png" loading="eager" placeholder="none" alt="" className="!fixed z-10 right-0 md:right-10 -top-10 md:-top-20 w-1/3 md:w-1/4" />
 
     <div className="header-image">
