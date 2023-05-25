@@ -6,20 +6,15 @@
 
 .background {
     position: fixed;
-    background-image: url(../images/OU-Moselmotiv_.svg);
-    background-size: cover;
-    background-position: -50vw 50%;
+    background-image: url(../images/Vogel_1.png);
+    background-repeat: no-repeat;
+    background-position: -10vw 100%;
+    background-size: 35%;
     width: 100vw;
     height: 100vh;
     content: '';
     z-index: 10;
     pointer-events: none;
-}
-
-@media screen and (orientation: portrait) {
-    .background {
-        background-position: 50vw -20vh;
-    }
 }
 
 .header-image {
