@@ -4,8 +4,11 @@ import timetable from "../../static/timetable.pdf";
   
 const ArtistsTemplate = ({ artists }) => {
 
-    const artistsByYear = artists.reduce((map, artist) => map[artist.year] = artist, {});
-    const thisYearsArtists = artistsByYear[new Date().getFullYear()];
+    const artistsByYear = artists.reduce((map, artist) => {
+        map[artist.year] = artist.year in map ? [...map[artist.year], artist] : [artist]
+        return map;
+    }, {});
+    const thisYearsArtists = artistsByYear[`${new Date().getFullYear()}`];
 
     return <div className="mt-16 md:mt-20 ">
 

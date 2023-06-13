@@ -30,6 +30,7 @@ export const pageQuery = graphql`
           childMarkdownRemark {
             frontmatter {
               title
+              year
               image {
                 childImageSharp {
                   gatsbyImageData(quality: 100, layout: FULL_WIDTH)
@@ -49,6 +50,7 @@ const mapEdges = ({
     childMarkdownRemark: {
       frontmatter: {
         title,
+        year,
         image,
       }
     }
@@ -57,4 +59,5 @@ const mapEdges = ({
   name,
   title,
   image: getImage(image),
+  year,
 })
