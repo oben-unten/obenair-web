@@ -1,7 +1,7 @@
 ---
 title: Joy Bogat
 image: ../uploads/joy_bogat.jpg
-spotify: https://open.spotify.com/artist/4W9ZAgvkctnqPK6BftsaQg?si=soTNgQHTS2GkTiPNdDIa2Q
+spotify: 4W9ZAgvkctnqPK6BftsaQg
 year: "2023"
 ---
 Joy Bogat
