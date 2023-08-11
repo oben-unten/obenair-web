@@ -1,7 +1,7 @@
 ---
 title: Eintritt
 ---
-Tickets für das gesamte Wochenende oder für die einzelnen Tage erhältst du bei Ticketregional und damit bei allen bekannten Vorverkaufsstellen oder online auf [Ticket Regional](https://www.ticket-regional.de/events.php?eventseriesID=710&mysearchEventseries=710).
+Tickets für das gesamte Wochenende oder für die einzelnen Tage erhältst du hier bei uns auf der Website unter dem Reiter "Tickets".
 
 Zudem wird es eine Abendkasse geben.
 
