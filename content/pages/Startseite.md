@@ -7,8 +7,8 @@ text1: "Die Kluft zwischen Wollen und Handeln, zwischen Vorstellung und Realitä
   nicht vollständig, aber mit gutem Zeug, der uns Handeln lässt und uns
   Träumereien realisierbar macht. "
 video: jrxK-a3Ykn4
-text2: "Das Oben Air Festival 2023 am 1. und 2. September findet als die nunmehr
-  9. Version unserer Herzensangelegenheit statt. Es ist gleichzeitig die zweite
+text2: "Das Oben Air Festival 2024 am 6. und 7. September findet als die nunmehr
+  10. Version unserer Herzensangelegenheit statt. Es ist gleichzeitig die zweite
   Runde am Waldrand in Pünderich. Als gemeinnütziger Verein „Oben & Unten
   Kulturveranstaltungen“ liegt uns dabei die Moselgegend, mit ihrer
   einzigartigen Landschaft, besonders am Herzen. Wir versuchen an allen Ecken
@@ -21,6 +21,6 @@ photo2: ../uploads/sonne.png
 ---
 # oben air
 
-## **1./2. September** 2023           
+## **6./7. September** 2024           
 
 **Pünderich** (Mosel)
