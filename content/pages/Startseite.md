@@ -6,7 +6,7 @@ text1: "Die Kluft zwischen Wollen und Handeln, zwischen Vorstellung und Realitä
   weit, so gut. Die positive Nachricht – wir haben einen Werkzeugkasten, klein,
   nicht vollständig, aber mit gutem Zeug, der uns Handeln lässt und uns
   Träumereien realisierbar macht. "
-video: jrxK-a3Ykn4
+video: bIoGb_KJEkI
 text2: "Das Oben Air Festival 2024 am 6. und 7. September findet als die nunmehr
   10. Version unserer Herzensangelegenheit statt. Es ist gleichzeitig die zweite
   Runde am Waldrand in Pünderich. Als gemeinnütziger Verein „Oben & Unten
