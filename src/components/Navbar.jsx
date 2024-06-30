@@ -12,8 +12,8 @@ const Navbar = ({ transparent=false }) => {
         return () => document.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const bgClass = (!transparent || scrolled || dropdownToggled) ? 'bg-header text-on-header' : 'bg-transparent text-on-dark';
-    const svgClass = (!transparent || scrolled || dropdownToggled) ? 'fill-on-header' : 'fill-on-dark';
+    const bgClass = (!transparent || scrolled || dropdownToggled) ? 'bg-header text-on-header' : 'bg-transparent text-on-light';
+    const svgClass = (!transparent || scrolled || dropdownToggled) ? 'fill-on-header' : 'fill-on-light';
 
     return <>
         <nav className={`${bgClass} fixed w-full z-30 top-0 duration-300 ease-in-out`}>
