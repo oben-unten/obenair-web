@@ -17,14 +17,14 @@ const StartseiteTemplate = ({
 
   return <>
     
-    <StaticImage src="../images/Vogel_1.png" loading="eager" placeholder="none" alt="" className="!fixed z-20 bottom-5 left-0 w-1/2 md:w-1/3 xl:w-1/4" />
-    <StaticImage src="../images/Vogel_2.png" loading="eager" placeholder="none" alt="" className="!fixed z-20 top-20 right-1 md:top-36 xl:top-40 w-1/3 md:w-1/4 xl:w-1/6" />
+    <StaticImage src="../images/Vogel_1.png" loading="eager" placeholder="none" alt="" className="!fixed invisible lg:visible z-20 bottom-5 left-0 w-1/2 md:w-1/3 xl:w-1/4" />
+    <StaticImage src="../images/Vogel_2.png" loading="eager" placeholder="none" alt="" className="!fixed z-20 top-20 right-1 md:top-28 w-1/3 md:w-1/4 xl:w-1/6" />
 
     <div className="header-image">
       <FullWidthImage img={image} title={body} height={'90vh'} />
     </div>
 
-    <section className="bg-dark lg:py-8 relative border-y-8 border-white">
+    <section className="bg-dark z-30 lg:py-8 relative border-y-8 border-white">
       <div className="container max-w-5xl mx-auto">
         <div className="py-16 px-4 font-extralight text-on-dark prose lg:prose-xl">
           {text1}
@@ -40,7 +40,7 @@ const StartseiteTemplate = ({
       </div>
     </section>
 
-    <section className="bg-dark lg:py-8 relative border-y-8 border-white">
+    <section className="bg-dark z-30 lg:py-8 relative border-y-8 border-white">
       <div className="container flex max-w-5xl mx-auto text-right justify-end">
         <div className="py-16 px-4 font-extralight text-on-dark prose lg:prose-xl">
           {text2}
@@ -54,7 +54,7 @@ const StartseiteTemplate = ({
       </div>
     </section>
 
-    <section className="bg-dark lg:py-8 relative border-y-8 border-white">
+    <section className="bg-dark z-30 lg:py-8 relative border-y-8 border-white">
       <div className="container max-w-5xl mx-auto">
         <div className="py-16 px-4 font-extralight text-on-dark prose lg:prose-xl">
           {text3}

@@ -7,46 +7,57 @@
 .header-image {
     font-size: 2vw;
 }
-
 .header-image h1 {
     font-size: 6em;
+    text-align: left;
     margin-bottom: -0.3em;
     @apply text-on-light;
 }
-
-@media screen and (orientation: portrait) {
-    .header-image h1 {
-        margin-left: 15vw;
-    }
-}
-
 .header-image h2 {
+    font-size: 3em;
+    text-align: left;
+    font-family: "Providence Sans", sans-serif;
+    text-transform: uppercase;
+    @apply text-on-light;
+    margin-bottom: 0;
+}
+.header-image h3 {
     font-size: 2em;
     text-align: right;
-    @apply font-sans-serif;
+    font-family: "Providence Sans", sans-serif;
+    text-transform: uppercase;
     @apply text-dark;
-    margin-bottom: .5em;
+    margin-bottom: -1em;
 }
-
-@media screen and (orientation: portrait) {
-    .header-image h2 {
-        font-size: 3em;
-        margin-right: 15vw;
-    }
-}
-
 .header-image p {
     font-size: 1em;
+    text-align: right;
+    font-family: "Providence Sans", sans-serif;
+    text-transform: uppercase;
     @apply text-dark;
 }
-
+.header-image a {
+    text-decoration: underline;
+}
 @media screen and (orientation: portrait) {
+    .header-image h1 {
+        padding: 0 10vw;
+    }
+    .header-image h2 {
+        padding: 0 10vw;
+        font-size: 3em;
+    }
+    .header-image h3 {
+        padding: 0 10vw;
+        font-size: 3em;
+        text-align: left;
+        margin-top: 2.5em;
+    }
     .header-image p {
+        padding: 0 10vw;
         font-size: 2em;
         line-height: 2em;
     }
 }
 
-.header-image a {
-    text-decoration: underline;
-}
+

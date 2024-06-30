@@ -2,4 +2,9 @@
     font-family: "Ribes Black";
     src: url("../fonts/Ribes-Black.woff2") format("woff2"),
          url("../fonts/Ribes-Black.woff") format("woff");
-  }
+}
+
+@font-face {
+    font-family: "Providence Sans";
+    src: url("../fonts/Providence-Sans.woff") format("woff"),
+}
