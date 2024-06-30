@@ -2,11 +2,11 @@ module.exports = {
   content: ['./src/**/*.{js,jsx}'],
   theme: {
     colors: {
-      header: '#ece1df',
-      dark: '#86aeb8',
-      light: '#efefef',
-      'on-header': '#e14d2c',
-      'on-dark': '#fff',
+      header: '#e14c2c',
+      dark: '#256873',
+      light: '#e9dcd9',
+      'on-header': 'white',
+      'on-dark': 'white',
       'on-light': '#e14d2c',
       black: 'black',
       white: 'white',
