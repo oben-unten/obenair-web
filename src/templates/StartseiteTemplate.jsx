@@ -17,8 +17,8 @@ const StartseiteTemplate = ({
 
   return <>
     
-    <StaticImage src="../images/Vogel_1.png" loading="eager" placeholder="none" alt="" className="!fixed z-20 -left-10 -bottom-10 w-1/2 md:w-1/3 xl:w-1/4" />
-    <StaticImage src="../images/Vogel_2.png" loading="eager" placeholder="none" alt="" className="!fixed z-20 -right-10 xl:-right-5 top-20 md:top-36 xl:top-40 w-1/3 md:w-1/4 xl:w-1/6" />
+    <StaticImage src="../images/Vogel_1.png" loading="eager" placeholder="none" alt="" className="!fixed z-20 bottom-5 left-0 w-1/2 md:w-1/3 xl:w-1/4" />
+    <StaticImage src="../images/Vogel_2.png" loading="eager" placeholder="none" alt="" className="!fixed z-20 top-20 right-1 md:top-36 xl:top-40 w-1/3 md:w-1/4 xl:w-1/6" />
 
     <div className="header-image">
       <FullWidthImage img={image} title={body} height={'90vh'} />

@@ -30,6 +30,7 @@
 
 @media screen and (orientation: portrait) {
     .header-image h2 {
+        font-size: 3em;
         margin-right: 15vw;
     }
 }
@@ -37,13 +38,11 @@
 .header-image p {
     font-size: 1em;
     @apply text-dark;
-    line-height: 2em;
 }
 
 @media screen and (orientation: portrait) {
     .header-image p {
         font-size: 2em;
-        @apply text-on-dark;
         line-height: 2em;
     }
 }
