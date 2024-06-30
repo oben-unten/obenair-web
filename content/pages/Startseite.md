@@ -21,6 +21,6 @@ photo2: ../uploads/sonne.png
 ---
 # oben air
 
-## **6./7. September** 2024          
+## 6./7. September 2024          
 
-**Pünderich** (Mosel)
+Waldhütte auf der Buche in Pünderich an der Mosel
