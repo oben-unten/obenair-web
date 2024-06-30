@@ -16,7 +16,7 @@ const Navbar = ({ transparent=false }) => {
     const svgClass = (!transparent || scrolled || dropdownToggled) ? 'fill-on-header' : 'fill-on-light';
 
     return <>
-        <nav className={`${bgClass} fixed w-full z-30 top-0 duration-300 ease-in-out`}>
+        <nav className={`${bgClass} fixed w-full z-40 top-0 duration-300 ease-in-out`}>
             <div className="w-full px-5 lg:px-20 flex flex-wrap items-center justify-between mt-0 py-2">
                 <div className="pr-5">
                     <Link to="https://www.facebook.com/obeanairfestival" target="_blank">
