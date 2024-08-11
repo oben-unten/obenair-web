@@ -1,6 +1,6 @@
 import React from "react";
 import ArtistTeaser from "../components/ArtistTeaser";
-import timetable from "../../static/timetable.jpg";
+import timetable from "../../static/timetable_2024.png";
   
 const ArtistsTemplate = ({ artists }) => {
 
@@ -12,7 +12,7 @@ const ArtistsTemplate = ({ artists }) => {
 
     return <div className="mt-16 md:mt-20 ">
 
-        { false && <div className="md:mx-20 p-5 text-center bg-dark font-bold text-on-dark text-lg">
+        { true && <div className="md:mx-20 p-5 text-center bg-dark font-bold text-on-dark text-lg">
             <a href={ timetable } target="_blank" rel="noreferrer">&gt;&gt;&gt; Timetable &lt;&lt;&lt;</a>
         </div> }
         <div className="flex flex-col mt-5 pb-5">
