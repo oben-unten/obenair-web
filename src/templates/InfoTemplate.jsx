@@ -1,5 +1,5 @@
 import React from "react";
-import plan from "../../static/plan.jpg";
+import plan from "../../static/plan_2024.png";
   
 const InfoTemplate = ({ info }) => <>
     <div className="flex flex-col pt-20 pb-5">
