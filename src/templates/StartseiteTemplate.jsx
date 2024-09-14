@@ -3,6 +3,7 @@ import FullWidthImage from "../components/FullWidthImage";
 import Image from "../components/Image";
 import '../styles/Startseite.css';
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
   
 const StartseiteTemplate = ({
   body,
@@ -62,10 +63,17 @@ const StartseiteTemplate = ({
       </div>
     </section>
 
-    <section className="bg-light lg:py-8">
-      <div className="container max-w-5xl mx-auto">
-        <Image image={photo2} alt="Foto"/>
-      </div>
+    <section className="bg-light py-8 lg:py-32 flex flex-col md:flex-row items-center justify-center gap-6 md:gap-32">
+        <div>
+          <Link to="https://www.kultursommer.de" target="_blank">
+            <StaticImage src="../images/logo_kuso.svg" width={300} />
+          </Link>
+        </div>
+        <div>
+          <Link to="https://www.initiative-musik.de" target="_blank">
+            <StaticImage src="../images/logo_imu.png" width={300} />
+          </Link>
+        </div>
     </section>
   </>;
 };
