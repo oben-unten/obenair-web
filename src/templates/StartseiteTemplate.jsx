@@ -63,18 +63,28 @@ const StartseiteTemplate = ({
       </div>
     </section>
 
-    <section className="bg-light py-8 lg:py-32 flex flex-col md:flex-row items-center justify-center gap-6 md:gap-32">
-        <div>
-          <Link to="https://www.kultursommer.de" target="_blank">
-            <StaticImage src="../images/logo_kuso.svg" width={300} />
-          </Link>
+    { new Date().getFullYear() === 2024 && 
+      <section className="bg-light py-8 lg:py-32">
+        <div className="text-center p-8">Gefördert von:</div>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-32">
+          <div>
+            <Link to="https://www.kultursommer.de" target="_blank">
+              <StaticImage src="../images/logo_kuso.svg" placeholder="none" width={200} />
+            </Link>
+          </div>
+          <div>
+            <Link to="https://www.initiative-musik.de" target="_blank">
+              <StaticImage src="../images/logo_imu.png" placeholder="none" width={200} />
+            </Link>
+          </div>
+          <div>
+            <Link to="https://www.initiative-musik.de" target="_blank">
+              <StaticImage src="../images/logo_bkm.png" placeholder="none" width={200} />
+            </Link>
+          </div>
         </div>
-        <div>
-          <Link to="https://www.initiative-musik.de" target="_blank">
-            <StaticImage src="../images/logo_imu.png" width={300} />
-          </Link>
-        </div>
-    </section>
+      </section>
+    }
   </>;
 };
 

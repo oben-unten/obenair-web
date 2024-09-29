@@ -10,7 +10,7 @@ export default function Footer() {
                 <StaticImage
                     src="../images/logo_ou.png" 
                     alt="A dinosaur"
-                    placeholder="tracedSVG"
+                    placeholder="none"
                     width={80}
                     height={80}
                 />
