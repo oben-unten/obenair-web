@@ -1,4 +1,4 @@
-import CMS from 'netlify-cms-app';
+import CMS from 'decap-cms-app';
 import StartseitePreview from '../previews/StartseitePreview';
 import VereinPreview from '../previews/VereinPreview';
 
