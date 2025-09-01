@@ -5,6 +5,6 @@ Auf dem Festival gibt es ein Toilettenhaus mit festinstallierten Toiletten, zude
 
 Das Konzept einer Komposttoilette ist absolut hygienisch und geruchsarm, da jeder „Gang“ mit einer Schicht Holzspänen abgedeckt wird. Und schick sind die Dinger obendrein – überzeugt euch [selbst](https://www.nowato.com)! 
 
-In unmittelbarer Nähe stehen Hygienestationen für die regelmäßige Handhygiene. 
+Ein Außenwaschbecken an der Hütte mit fließendem Wasseranschluss steht als Wasserfüllstation während dem Festival allen Besucher\*innen sowie Campierenden zur Verfügung. Es handelt sich hier um Trinkwasser, welches ihr guten Gewissens Zapfen könnt!
 
-Ein Außenwaschbecken an der Hütte mit fließendem Wasseranschluss steht als Wasserfüllstation während dem Festival allen Besucher*innen sowie Campierenden zur Verfügung.
+Außerdem wird jedes Jahr eine Dusche gezaubert! Hilf auch bei der morgendlichen Regenerierung ;)

@@ -1,4 +1,4 @@
 ---
 title: Gehörschutz
 ---
-Zu laut? Ein paar Ohrstöpsel werden wir an der Theke hinterlegen.
+Zu laut? An der Theke gibt es Ohrstöpsel! Komm und hol sie dir.
