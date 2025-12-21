@@ -7,8 +7,8 @@ text1: "Die Kluft zwischen Wollen und Handeln, zwischen Vorstellung und Realitä
   nicht vollständig, aber mit gutem Zeug, der uns Handeln lässt und uns
   Träumereien realisierbar macht. "
 video: m4uRW3T2na8
-text2: "Das Oben Air Festival 2025 am 5. und 6. September findet als die nunmehr
-  11. Version unserer Herzensangelegenheit statt. Es ist gleichzeitig die vierte
+text2: "Das Oben Air Festival 2026 am 4. und 5. September findet als die nunmehr
+  12. Version unserer Herzensangelegenheit statt. Es ist gleichzeitig die vierte
   Runde am Waldrand in Pünderich. Als gemeinnütziger Verein „Oben & Unten
   Kulturveranstaltungen“ liegt uns dabei die Moselgegend, mit ihrer
   einzigartigen Landschaft, besonders am Herzen. Wir versuchen an allen Ecken
@@ -20,7 +20,7 @@ text3: PS. Oben ist die Luft am dünsten!
 photo2: ../uploads/sonne.png
 ---
 
-### 5./6. Sept. 2025
+### 4./5. Sept. 2026
 
 # oben air
 
