@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import FullWidthImage from '../components/FullWidthImage';
+import { getEntry } from 'astro:content';
+import { marked } from 'marked';
+
+const entry = await getEntry('pages', 'helfen');
+const { image } = entry.data;
+const bodyHtml = await marked.parse(entry.body || '');
+---
+
+<Layout>
+    <section class="lg:py-8 z-20 relative pt-10 lg:pt-20">
+      <div class="container max-w-5xl mx-auto">
+        <div class="p-5 prose lg:prose-xl" set:html={bodyHtml} />
+      </div>
+    </section>
+
+    <div class="header-image">
+      <FullWidthImage img={image} />
+    </div>
+</Layout>

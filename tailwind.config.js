@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./src/**/*.{js,jsx}'],
+  content: ['./src/**/*.{astro,js,jsx,ts,tsx}'],
   theme: {
     colors: {
       header: '#e14c2c',

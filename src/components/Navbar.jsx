@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "gatsby";
+import { Link } from "./Link";
 
-const Navbar = ({ transparent=false }) => {
+const Navbar = ({ transparent=false, pathname="" }) => {
 
     const [scrolled, setScrolled] = useState(false);
     const [dropdownToggled, setDropdownToggled] = useState(false);
@@ -14,6 +14,14 @@ const Navbar = ({ transparent=false }) => {
 
     const bgClass = (!transparent || scrolled || dropdownToggled) ? 'bg-header text-on-header' : 'bg-transparent text-on-light';
     const svgClass = (!transparent || scrolled || dropdownToggled) ? 'fill-on-header' : 'fill-on-light';
+
+    const isActive = (path) => pathname === path || (path !== "/" && pathname.startsWith(path));
+
+    const NavLink = ({ to, children }) => {
+        const active = isActive(to);
+        const className = `inline-block py-2 px-4 ${active ? 'font-bold' : ''}`;
+        return <Link className={className} to={to}>{children}</Link>;
+    }
 
     return <>
         <nav className={`${bgClass} fixed w-full z-40 top-0 duration-300 ease-in-out`}>
@@ -45,22 +53,22 @@ const Navbar = ({ transparent=false }) => {
                 <div className={`${!dropdownToggled && 'hidden'} w-full flex-grow lg:flex lg:items-center lg:w-auto mt-2 lg:mt-0 p-4 lg:p-0 z-20`}>
                     <ul className="list-reset lg:flex justify-end flex-1 items-center">
                         <li className="mr-3">
-                            <Link className="inline-block py-2 px-4" activeClassName="font-bold" to="/">Festival</Link>
+                            <NavLink to="/">Festival</NavLink>
                         </li>
                         <li className="mr-3">
-                            <Link className="inline-block py-2 px-4" activeClassName="font-bold" to="/tickets">Tickets</Link>
+                            <NavLink to="/tickets">Tickets</NavLink>
                         </li>
                         <li className="mr-3">
-                            <Link className="inline-block py-2 px-4" activeClassName="font-bold" to="/artists">Lineup</Link>
+                            <NavLink to="/artists">Lineup</NavLink>
                         </li>
                         <li className="mr-3">
-                            <Link className="inline-block py-2 px-4" activeClassName="font-bold" to="/info">Infos</Link>
+                            <NavLink to="/info">Infos</NavLink>
                         </li>
                         <li className="mr-3">
-                            <Link className="inline-block py-2 px-4" activeClassName="font-bold" to="/helfen">Helfen</Link>
+                            <NavLink to="/helfen">Helfen</NavLink>
                         </li>
                         <li>
-                            <Link className="inline-block py-2 px-4" activeClassName="font-bold" to="/verein">Oben &amp; Unten e.V.</Link>
+                            <NavLink to="/verein">Oben &amp; Unten e.V.</NavLink>
                         </li>
                     </ul>
                 </div>

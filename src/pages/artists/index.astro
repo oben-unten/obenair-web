@@ -1,0 +1,15 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ArtistsTemplate from '../../templates/ArtistsTemplate';
+import { getCollection } from 'astro:content';
+
+const allArtists = await getCollection('artists');
+const artistsData = allArtists.map(a => ({
+  ...a.data,
+  name: a.slug,
+}));
+---
+
+<Layout>
+  <ArtistsTemplate client:load artists={artistsData} />
+</Layout>

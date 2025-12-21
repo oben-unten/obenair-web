@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import VereinTemplate from '../templates/VereinTemplate';
+import { getEntry } from 'astro:content';
+import { marked } from 'marked';
+
+const entry = await getEntry('pages', 'verein');
+const { image } = entry.data;
+const bodyHtml = await marked.parse(entry.body || '');
+---
+
+<Layout>
+  <VereinTemplate body={bodyHtml} image={image} />
+</Layout>

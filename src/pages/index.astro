@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import StartseiteTemplate from '../templates/StartseiteTemplate';
+import { getEntry } from 'astro:content';
+import { marked } from 'marked';
+
+const startseite = await getEntry('pages', 'startseite');
+const data = startseite.data;
+const bodyHtml = marked.parse(startseite.body || '');
+---
+
+<Layout transparent={true}>
+  <StartseiteTemplate 
+    client:load
+    body={bodyHtml} 
+    image={data.image} 
+    video={data.video}
+    text1={data.text1}
+    text2={data.text2}
+    text3={data.text3}
+    photo1={data.photo1}
+    photo2={data.photo2}
+  />
+</Layout>

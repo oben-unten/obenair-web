@@ -1,18 +1,18 @@
 import React from "react";
-import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "./Link";
+import LogoOu from "../images/logo_ou.png";
 
 export default function Footer() {
     return <>
         <hr className="border-b border-gray-800 my-0 py-0" />
         <div className="bg-gray-200 p-6 text-center">
             <Link to="/verein">
-                <StaticImage
-                    src="../images/logo_ou.png" 
+                <img
+                    src={LogoOu.src || LogoOu}
                     alt="A dinosaur"
-                    placeholder="none"
                     width={80}
                     height={80}
+                    className="mx-auto"
                 />
             </Link>
             <div className="pt-4 text-gray-800 text-sm">

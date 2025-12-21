@@ -2,9 +2,14 @@ import React from "react";
 import FullWidthImage from "../components/FullWidthImage";
 import Image from "../components/Image";
 import '../styles/Startseite.css';
-import { StaticImage } from "gatsby-plugin-image";
-import { Link } from "gatsby";
-  
+import { Link } from "../components/Link";
+
+import Vogel1 from "../images/Vogel_1.png";
+import Vogel2 from "../images/Vogel_2.png";
+import LogoKuso from "../images/logo_kuso.svg";
+import LogoImu from "../images/logo_imu.png";
+import LogoBkm from "../images/logo_bkm.png";
+
 const StartseiteTemplate = ({
   body,
   image,
@@ -18,11 +23,11 @@ const StartseiteTemplate = ({
 
   return <>
     
-    <StaticImage src="../images/Vogel_1.png" loading="eager" placeholder="none" alt="" className="!fixed invisible lg:visible z-20 bottom-5 left-0 w-1/2 md:w-1/3 xl:w-1/4" />
-    <StaticImage src="../images/Vogel_2.png" loading="eager" placeholder="none" alt="" className="!fixed z-20 top-20 right-1 md:top-28 w-1/3 md:w-1/4 xl:w-1/6" />
+    <img src={Vogel1.src || Vogel1} alt="" className="!fixed invisible lg:visible z-20 bottom-5 left-0 w-1/2 md:w-1/3 xl:w-1/4" />
+    <img src={Vogel2.src || Vogel2} alt="" className="!fixed z-20 top-20 right-1 md:top-28 w-1/3 md:w-1/4 xl:w-1/6" />
 
     <div className="header-image">
-      <FullWidthImage img={image} title={body} height={'90vh'} />
+      <FullWidthImage img={image} titleHtml={body} height={'90vh'} />
     </div>
 
     <section className="bg-dark z-30 lg:py-8 relative border-y-8 border-white">
@@ -69,17 +74,17 @@ const StartseiteTemplate = ({
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-32">
           <div>
             <Link to="https://www.kultursommer.de" target="_blank">
-              <StaticImage src="../images/logo_kuso.svg" placeholder="none" width={200} />
+              <img src={LogoKuso.src || LogoKuso} width={200} alt="Kultursommer Rheinland-Pfalz" />
             </Link>
           </div>
           <div>
             <Link to="https://www.initiative-musik.de" target="_blank">
-              <StaticImage src="../images/logo_imu.png" placeholder="none" width={200} />
+              <img src={LogoImu.src || LogoImu} width={200} alt="Initiative Musik" />
             </Link>
           </div>
           <div>
             <Link to="https://www.initiative-musik.de" target="_blank">
-              <StaticImage src="../images/logo_bkm.png" placeholder="none" width={200} />
+              <img src={LogoBkm.src || LogoBkm} width={200} alt="Bundesregierung für Kultur und Medien" />
             </Link>
           </div>
         </div>
