@@ -24,13 +24,13 @@ const StartseiteTemplate = ({
         src={Kreis.src || Kreis}
         alt=""
         aria-hidden="true"
-        className="hero-circle absolute right-6 top-32 md:right-16 md:top-40 w-24 md:w-32 lg:w-48"
+        className="hero-circle absolute right-6 top-20 md:right-16 md:top-40 w-24 md:w-32 lg:w-48"
       />
       <img
         src={Birdy.src || Birdy}
         alt=""
         aria-hidden="true"
-        className="hero-bird absolute w-32 md:w-48 lg:w-64 left-6 top-80 md:left-16 md:top-96"
+        className="hero-bird absolute w-32 md:w-48 lg:w-64 right-6 top-48 md:left-16 md:top-96"
       />
       <div className="hero-content max-w-2xl mx-auto">
         {date && <p className="hero-date text-dark font-bold mb-2 md:mb-4">{date}</p>}
