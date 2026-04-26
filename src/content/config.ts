@@ -22,6 +22,8 @@ const pages = defineCollection({
   type: 'content',
   schema: ({ image }) => z.object({
     title: z.string().optional(),
+    date: z.string().optional(),
+    subtitle: z.string().optional(),
     image: image().optional(),
     video: z.string().optional(),
     text1: z.string().optional(),

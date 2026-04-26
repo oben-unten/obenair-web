@@ -1,95 +1,104 @@
 import React from "react";
-import FullWidthImage from "../components/FullWidthImage";
 import Image from "../components/Image";
 import '../styles/Startseite.css';
-import { Link } from "../components/Link";
 
-import Vogel1 from "../images/Vogel_1.png";
-import Vogel2 from "../images/Vogel_2.png";
-import LogoKuso from "../images/logo_kuso.svg";
-import LogoImu from "../images/logo_imu.png";
-import LogoBkm from "../images/logo_bkm.png";
+import Birdy from "../images/Birdy.png";
+import Kreis from "../images/Kreis.png";
 
 const StartseiteTemplate = ({
-  body,
-  image,
+  date,
+  title,
+  subtitle,
   video,
   text1,
   text2,
   text3,
   photo1,
-  photo2,
 }) => {
 
+  const titleWords = (title || "").split(/\s+/).filter(Boolean);
+
   return <>
-    
-    <img src={Vogel1.src || Vogel1} alt="" className="!fixed invisible lg:visible z-20 bottom-5 left-0 w-1/2 md:w-1/3 xl:w-1/4" />
-    <img src={Vogel2.src || Vogel2} alt="" className="!fixed z-20 top-20 right-1 md:top-28 w-1/3 md:w-1/4 xl:w-1/6" />
+    <section className="hero px-6 md:px-16 py-8 md:py-12 mt-12">
+      <img
+        src={Kreis.src || Kreis}
+        alt=""
+        aria-hidden="true"
+        className="hero-circle absolute right-6 top-32 md:right-16 md:top-40 w-24 md:w-32 lg:w-48"
+      />
+      <img
+        src={Birdy.src || Birdy}
+        alt=""
+        aria-hidden="true"
+        className="hero-bird absolute w-32 md:w-48 lg:w-64 left-6 top-80 md:left-16 md:top-96"
+      />
+      <div className="hero-content max-w-2xl mx-auto">
+        {date && <p className="hero-date text-dark font-bold mb-2 md:mb-4">{date}</p>}
+        {titleWords.length > 0 && (
+          <h1 className="hero-title text-white m-0">
+            {titleWords.map((word, i) => (
+              <span key={i} className="block">{word}</span>
+            ))}
+          </h1>
+        )}
+        {subtitle && <p className="hero-subtitle text-dark mt-4 md:mt-6">{subtitle}</p>}
+      </div>
+    </section>
 
-    <div className="header-image">
-      <FullWidthImage img={image} titleHtml={body} height={'90vh'} />
-    </div>
-
-    <section className="bg-dark z-30 lg:py-8 relative border-y-8 border-white">
-      <div className="container max-w-5xl mx-auto">
-        <div className="py-16 px-4 font-extralight text-on-dark prose lg:prose-xl">
+    {text1 && (
+      <section className="px-6 md:px-16 py-8 md:py-12">
+        <div className="max-w-2xl mx-auto text-on-light text-base md:text-lg leading-relaxed">
           {text1}
         </div>
-      </div>
-    </section>
+      </section>
+    )}
 
-    <section className="bg-light lg:py-8">
-      <div className="container max-w-5xl md:mx-auto">
-        <div className="aspect-w-16 aspect-h-9">
-          <iframe src={`https://www.youtube.com/embed/${video}?controls=0`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </div>
-      </div>
-    </section>
-
-    <section className="bg-dark z-30 lg:py-8 relative border-y-8 border-white">
-      <div className="container flex max-w-5xl mx-auto text-right justify-end">
-        <div className="py-16 px-4 font-extralight text-on-dark prose lg:prose-xl">
-          {text2}
-        </div>
-      </div>
-    </section>
-
-    <section className="bg-light lg:py-8">
-      <div className="container max-w-5xl mx-auto">
-        <Image image={photo1} alt="Foto"/>
-      </div>
-    </section>
-
-    <section className="bg-dark z-30 lg:py-8 relative border-y-8 border-white">
-      <div className="container max-w-5xl mx-auto">
-        <div className="py-16 px-4 font-extralight text-on-dark prose lg:prose-xl">
-          {text3}
-        </div>
-      </div>
-    </section>
-
-    { new Date().getFullYear() === 2024 && 
-      <section className="bg-light py-8 lg:py-32">
-        <div className="text-center p-8">Gefördert von:</div>
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-32">
-          <div>
-            <Link to="https://www.kultursommer.de" target="_blank">
-              <img src={LogoKuso.src || LogoKuso} width={200} alt="Kultursommer Rheinland-Pfalz" />
-            </Link>
-          </div>
-          <div>
-            <Link to="https://www.initiative-musik.de" target="_blank">
-              <img src={LogoImu.src || LogoImu} width={200} alt="Initiative Musik" />
-            </Link>
-          </div>
-          <div>
-            <Link to="https://www.initiative-musik.de" target="_blank">
-              <img src={LogoBkm.src || LogoBkm} width={200} alt="Bundesregierung für Kultur und Medien" />
-            </Link>
+    {video && (
+      <section className="px-6 md:px-16 py-8 md:py-12">
+        <div className="max-w-3xl mx-auto">
+          <div className="aspect-w-16 aspect-h-9">
+            <iframe
+              src={`https://www.youtube.com/embed/${video}?controls=0`}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
         </div>
       </section>
-    }
+    )}
+
+    <section className="px-6 md:px-16 py-8 md:py-12">
+      <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-[auto_1fr] gap-6 md:gap-12 items-start">
+        <h2 className="section-heading text-dark m-0">
+          <span className="block">Musik,</span>
+          <span className="block">Film,</span>
+          <span className="block">Literatur</span>
+        </h2>
+        {photo1 && (
+          <div className="md:pt-2">
+            <Image image={photo1} alt="Foto" />
+          </div>
+        )}
+      </div>
+    </section>
+
+    {text2 && (
+      <section className="px-6 md:px-16 py-8 md:py-12">
+        <div className="max-w-2xl mx-auto text-on-light text-base md:text-lg leading-relaxed">
+          {text2}
+        </div>
+      </section>
+    )}
+
+    {text3 && (
+      <section className="px-6 md:px-16 py-8 md:py-12">
+        <div className="max-w-2xl mx-auto text-on-light text-base md:text-lg leading-relaxed">
+          {text3}
+        </div>
+      </section>
+    )}
   </>;
 };
 

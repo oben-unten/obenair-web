@@ -1,57 +1,21 @@
-.header-image {
-    font-size: 2vw;
-}
-.header-image h1 {
-    font-size: 6em;
-    text-align: left;
-    margin-bottom: -0.3em;
-    @apply text-on-light;
-}
-.header-image h2 {
-    font-size: 3em;
-    text-align: left;
-    font-family: "Providence Sans", sans-serif;
-    text-transform: uppercase;
-    @apply text-on-light;
-    margin-bottom: 0;
-}
-.header-image h3 {
-    font-size: 2em;
-    text-align: right;
-    font-family: "Providence Sans", sans-serif;
-    text-transform: uppercase;
-    @apply text-dark;
-    margin-bottom: -1em;
-}
-.header-image p {
-    font-size: 1em;
-    text-align: right;
-    font-family: "Providence Sans", sans-serif;
-    text-transform: uppercase;
-    @apply text-dark;
-}
-.header-image a {
-    text-decoration: underline;
-}
-@media screen and (orientation: portrait) {
-    .header-image h1 {
-        padding: 0 10vw;
-    }
-    .header-image h2 {
-        padding: 0 10vw;
-        font-size: 3em;
-    }
-    .header-image h3 {
-        padding: 0 10vw;
-        font-size: 3em;
-        text-align: left;
-        margin-top: 2.5em;
-    }
-    .header-image p {
-        padding: 0 10vw;
-        font-size: 2em;
-        line-height: 2em;
-    }
+.hero-title {
+    font-family: "Ribes Black", ui-serif, Georgia, serif;
+    font-size: clamp(3.5rem, 11vw, 9rem);
+    line-height: 0.95;
+    letter-spacing: -0.01em;
 }
 
+.hero-subtitle, .hero-date {
+    font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    font-size: clamp(1.125rem, 1.4vw + 0.7rem, 1.875rem);
+    font-weight: 600;
+    line-height: 1.15;
+    max-width: 28ch;
+}
 
+.section-heading {
+    font-family: "Ribes Black", ui-serif, Georgia, serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    line-height: 1;
+    letter-spacing: -0.005em;
+}

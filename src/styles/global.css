@@ -4,14 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
-h1, h2, h3, h4, h5, h6 {
-    @apply font-serif;
+html, body {
+    @apply bg-light text-on-light;
 }
 
 body {
-    font-weight: 300;
+    font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    font-weight: 400;
 }
 
 body strong {
-    font-weight: 600;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
 }
