@@ -65,6 +65,9 @@ const Navbar = ({ transparent=false, pathname="" }) => {
                             <NavLink to="/info">Infos</NavLink>
                         </li>
                         <li className="mr-3">
+                            <NavLink to="/barrierefreiheit">Barrierefreiheit</NavLink>
+                        </li>
+                        <li className="mr-3">
                             <NavLink to="/helfen">Helfen</NavLink>
                         </li>
                         <li>
