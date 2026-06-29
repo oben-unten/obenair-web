@@ -1,10 +1,10 @@
 import React from "react";
 
 export default function FullWidthImage({
-    height = 400,
+    height = '400',
     img,
-    title,
-    titleHtml,
+    title = undefined,
+    titleHtml = undefined,
     imgPosition = "bottom",
 }) {
     // Handle Astro image object (src) or string url
