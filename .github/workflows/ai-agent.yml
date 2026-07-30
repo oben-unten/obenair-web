@@ -1,0 +1,26 @@
+name: AI Issue Agent
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  run-agent:
+    if: github.event.label.name == 'ai-fix'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run OpenHands Resolver
+        uses: All-Hands-AI/openhands-resolver@main
+        with:
+          issue_number: ${{ github.event.issue.number }}
+          llm_api_key: ${{ secrets.GEMINI_API_KEY }}
+          llm_model: "gemini/gemini-3.6-flash"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
