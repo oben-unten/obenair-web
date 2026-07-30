@@ -4,23 +4,19 @@ on:
   issues:
     types: [labeled]
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 jobs:
-  run-agent:
+  call-openhands-resolver:
     if: github.event.label.name == 'ai-fix'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      issues: write
-      pull-requests: write
-
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Run OpenHands Resolver
-        uses: All-Hands-AI/openhands-resolver@main
-        with:
-          issue_number: ${{ github.event.issue.number }}
-          llm_api_key: ${{ secrets.GEMINI_API_KEY }}
-          llm_model: "gemini/gemini-3.6-flash"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+    uses: All-Hands-AI/OpenHands/.github/workflows/openhands-resolver.yml@main
+    with:
+      macro: '@openhands-agent'
+      max_iterations: 30
+      LLM_MODEL: 'gemini/gemini-3.6-flash'
+    secrets:
+      PAT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      LLM_API_KEY: ${{ secrets.GEMINI_API_KEY }}
