@@ -19,15 +19,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.11'
+          node-version: '20'
 
-      - name: Install AI Agent (Aider)
-        run: pip install aider-chat
-
-      - name: Run AI Agent on Issue
+      - name: Run Gemini CLI on Issue
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -36,15 +33,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 2. Create a unique branch name (Issue Number + Workflow Run ID)
+          # 2. Create a unique branch name
           BRANCH_NAME="ai-fix-issue-${{ github.event.issue.number }}-${{ github.run_id }}"
           git checkout -b $BRANCH_NAME
 
-          # 3. Run AI agent (--no-auto-commits lets us manage the commit)
-          aider --model gemini/gemini-2.5-pro \
-                --no-auto-commits \
-                --message "Fix this issue: Title: '${{ github.event.issue.title }}'. Description: '${{ github.event.issue.body }}'" \
-                --yes-always
+          # 3. Run Gemini CLI non-interactively with auto-approval (--yolo)
+          npx @google/gemini-cli -p "Fix this issue: Title: '${{ github.event.issue.title }}'. Description: '${{ github.event.issue.body }}'" --yolo
 
           # 4. Commit and push changes if any were made
           git add .
@@ -56,6 +50,6 @@ jobs:
 
             # 5. Open a Pull Request on GitHub
             gh pr create --title "AI Fix: ${{ github.event.issue.title }}" \
-                         --body "Automated resolution for Issue #${{ github.event.issue.number }} created using Gemini." \
+                         --body "Automated resolution for Issue #${{ github.event.issue.number }} created using Gemini CLI." \
                          --head $BRANCH_NAME
           fi
