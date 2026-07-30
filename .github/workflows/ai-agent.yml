@@ -36,12 +36,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 2. Create a new branch for the fix
-          BRANCH_NAME="ai-fix-issue-${{ github.event.issue.number }}"
+          # 2. Create a unique branch name (Issue Number + Workflow Run ID)
+          BRANCH_NAME="ai-fix-issue-${{ github.event.issue.number }}-${{ github.run_id }}"
           git checkout -b $BRANCH_NAME
 
-          # 3. Run AI agent to solve the issue
-          aider --model gemini/gemini-3.6-flash \
+          # 3. Run AI agent (--no-auto-commits lets us manage the commit)
+          aider --model gemini/gemini-2.5-pro \
+                --no-auto-commits \
                 --message "Fix this issue: Title: '${{ github.event.issue.title }}'. Description: '${{ github.event.issue.body }}'" \
                 --yes-always
 
