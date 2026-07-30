@@ -1,19 +1,19 @@
 module.exports = {
-  content: ['./src/**/*.{js,jsx}'],
+  content: ['./src/**/*.{astro,js,jsx,ts,tsx}'],
   theme: {
     colors: {
-      header: '#e14c2c',
-      dark: '#256873',
-      light: '#e9dcd9',
+      header: '#683551',
+      dark: '#e62a49',
+      light: '#c9abd2',
       'on-header': 'white',
       'on-dark': 'white',
-      'on-light': '#e14d2c',
+      'on-light': '#683551',
       black: 'black',
       white: 'white',
     },
     fontFamily: {
       'serif': ['Ribes Black', 'ui-serif', 'Georgia', 'serif'],
-      'sans-serif': ['Helvetica', 'ui-sans-serif', 'sans-serif'],
+      'sans-serif': ['Plus Jakarta Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
     },
     extend: {},
   },

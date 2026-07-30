@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "./Image";
-import { Link } from "gatsby";
+import { Link } from "./Link";
 
 
 const X_POSITIONS = ['right-4', 'right-1/4', 'right-2/4', 'left-4', 'left-1/4', 'left-2/4'];

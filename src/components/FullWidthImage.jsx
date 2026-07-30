@@ -1,12 +1,14 @@
 import React from "react";
-import { GatsbyImage } from "gatsby-plugin-image";
 
 export default function FullWidthImage({
-    height = 400,
+    height = '400',
     img,
-    title,
+    title = undefined,
+    titleHtml = undefined,
     imgPosition = "bottom",
 }) {
+    // Handle Astro image object (src) or string url
+    const src = img?.src || img?.url || img;
 
   return (
     <>
@@ -17,9 +19,8 @@ export default function FullWidthImage({
           alignItems: "center",
         }}
       >
-        {img?.url ? (
-          <img
-            src={img}
+        <img
+            src={src}
             style={{
               objectPosition: imgPosition,
               objectFit: "cover",
@@ -28,35 +29,19 @@ export default function FullWidthImage({
               width: "100%",
             }}
             alt=""
-            formats={["auto", "webp", "avif"]}
           />
-        ) : (
-          <GatsbyImage
-            image={img}
-            style={{
-              objectPosition: imgPosition,
-              objectFit: "cover",
-              gridArea: "1/1",
-              maxHeight: height,
-            }}
-            layout="fullWidth"
-            alt=""
-            formats={["auto", "webp", "avif"]}
-          />
-        )}
-        {title && (
+        {(title || titleHtml) && (
           <div
             style={{
-              // By using the same grid area for both, they are stacked on top of each other
               gridArea: "1/1",
               position: "relative",
-              // This centers the other elements inside the hero component
               placeItems: "center",
               display: "grid",
               zIndex: 20,
             }}
           >
-            {title}
+            {title && title}
+            {titleHtml && <span dangerouslySetInnerHTML={{ __html: titleHtml }} />}
           </div>
         )}
       </div>

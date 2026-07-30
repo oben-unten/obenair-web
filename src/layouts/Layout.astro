@@ -1,0 +1,24 @@
+---
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import '../styles/global.css';
+import favicon from '../images/favicon.png';
+
+const { title = "Oben Air Festival", description = "Grenzübergreifendes Musik- und Kunstfestival bei Zell an der Mosel.", transparent = false } = Astro.props;
+---
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/png" href={favicon.src || favicon} />
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Navbar client:load transparent={transparent} pathname={Astro.url.pathname} />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer client:visible />
+  </body>
+</html>

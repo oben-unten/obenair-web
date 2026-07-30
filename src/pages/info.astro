@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import InfoTemplate from '../templates/InfoTemplate';
+import { getCollection } from 'astro:content';
+import { marked } from 'marked';
+
+const infoCollection = await getCollection('info');
+infoCollection.sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const infoData = await Promise.all(infoCollection.map(async (item) => {
+  return {
+    title: item.data.title,
+    html: await marked.parse(item.body || '')
+  };
+}));
+---
+
+<Layout>
+  <InfoTemplate info={infoData} />
+</Layout>
