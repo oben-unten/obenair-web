@@ -41,7 +41,7 @@ jobs:
           git checkout -b $BRANCH_NAME
 
           # 3. Run AI agent to solve the issue
-          aider --model gemini/gemini-2.5-pro \
+          aider --model gemini/gemini-3.6-flash \
                 --message "Fix this issue: Title: '${{ github.event.issue.title }}'. Description: '${{ github.event.issue.body }}'" \
                 --yes-always
 
