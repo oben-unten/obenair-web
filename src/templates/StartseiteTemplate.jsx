@@ -19,18 +19,31 @@ const StartseiteTemplate = ({
   const titleWords = (title || "").split(/\s+/).filter(Boolean);
 
   return <>
-    <section className="hero px-6 md:px-16 py-8 md:py-12 mt-12">
+    <section className="px-6 md:px-16 mt-20">
+      <div className="max-w-2xl mx-auto bg-dark text-on-dark rounded-2xl px-6 py-5 md:px-8 md:py-6">
+        <p className="font-bold text-lg md:text-xl mb-3">Unsere Abendkasse wird knapp!</p>
+        <p className="text-sm md:text-base leading-relaxed mb-3">
+          Etwas richtig Schönes passiert gerade: Wir verkaufen sehr viele Tickets im Vorverkauf.
+          Daraus ergibt sich aber auch, dass wahrscheinlich nur noch wenige Tickets für die Abendkasse übrig bleiben.
+        </p>
+        <p className="text-sm md:text-base">
+          Das heißt: <a href="/tickets" className="font-bold underline underline-offset-2 hover:no-underline">Jetzt Tickets sichern</a>.
+        </p>
+      </div>
+    </section>
+
+    <section className="hero relative px-6 md:px-16 py-8 md:py-12">
       <img
         src={Kreis.src || Kreis}
         alt=""
         aria-hidden="true"
-        className="hero-circle absolute right-6 top-20 md:right-16 md:top-40 w-24 md:w-32 lg:w-48"
+        className="hero-circle absolute right-6 top-8 md:right-16 md:top-28 w-24 md:w-32 lg:w-48"
       />
       <img
         src={Birdy.src || Birdy}
         alt=""
         aria-hidden="true"
-        className="hero-bird absolute w-32 md:w-48 lg:w-64 right-6 top-48 md:left-16 md:top-96"
+        className="hero-bird absolute w-32 md:w-48 lg:w-64 right-6 top-36 md:left-16 md:top-[336px]"
       />
       <div className="hero-content max-w-2xl mx-auto">
         {date && <p className="hero-date text-dark font-bold mb-2 md:mb-4">{date}</p>}
