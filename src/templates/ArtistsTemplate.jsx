@@ -14,7 +14,7 @@ const ArtistsTemplate = ({ artists }) => {
 
     return <div className="mt-16 md:mt-20 ">
 
-        { thisYearsArtists?.length > 0 && <div className="grid md:grid-cols-3 md:mx-20 gap-5">
+        { false && <div className="grid md:grid-cols-3 md:mx-20 gap-5">
             <div className="p-5 md:col-span-2 text-center bg-dark font-bold text-on-dark text-lg">
                 <a href={ timetable } target="_blank" rel="noreferrer">&gt;&gt;&gt; Timetable &lt;&lt;&lt;</a>
             </div>
