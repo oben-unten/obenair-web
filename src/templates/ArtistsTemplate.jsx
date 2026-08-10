@@ -1,6 +1,6 @@
 import React from "react";
 import ArtistTeaser from "../components/ArtistTeaser";
-const timetable = "/timetable_2026.jpg";
+const timetable = "/timetable_2026.png";
   
 const ArtistsTemplate = ({ artists }) => {
 
