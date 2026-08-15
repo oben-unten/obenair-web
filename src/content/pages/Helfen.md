@@ -6,4 +6,4 @@ Falls du Lust hast beim Aufbau zu mitzuhelfen, ein paar Biere über die Theke zu
 
 Wir freuen uns auf dich!
 
-[\>>> Hier geht's zum Formular <<<](https://forms.gle/iH7rVWc2sJWCeYDr7)
+[\>>> Hier geht's zum Formular <<<](https://docs.google.com/forms/d/e/1FAIpQLSce7rkYAwx-78gUoxB8T_LsKB8-iyEJAuDQA9Afaf0aMAlgRQ/viewform)
