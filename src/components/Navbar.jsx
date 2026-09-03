@@ -55,9 +55,11 @@ const Navbar = ({ transparent=false, pathname="" }) => {
                         <li className="mr-3">
                             <NavLink to="/">Festival</NavLink>
                         </li>
-                        <li className="mr-3">
-                            <NavLink to="/tickets">Tickets</NavLink>
-                        </li>
+                        { false &&
+                            <li className="mr-3">
+                                <NavLink to="/tickets">Tickets</NavLink>
+                            </li>
+                        }
                         <li className="mr-3">
                             <NavLink to="/artists">Lineup</NavLink>
                         </li>
