@@ -23,11 +23,13 @@ const StartseiteTemplate = ({
       <div className="max-w-2xl mx-auto bg-dark text-on-dark rounded-2xl px-6 py-5 md:px-8 md:py-6">
         <p className="font-bold text-lg md:text-xl mb-3">Unsere Abendkasse wird knapp!</p>
         <p className="text-sm md:text-base leading-relaxed mb-3">
-          Etwas richtig Schönes passiert gerade: Wir verkaufen sehr viele Tickets im Vorverkauf.
-          Daraus ergibt sich aber auch, dass wahrscheinlich nur noch wenige Tickets für die Abendkasse übrig bleiben.
+          OUT OF TICKETS! AUSVERKAUFT! WIR HABEN KEINE KARTEN MEHR!
         </p>
         <p className="text-sm md:text-base">
-          Das heißt: <a href="/tickets" className="font-bold underline underline-offset-2 hover:no-underline">Jetzt Tickets sichern</a>.
+          Wir danken euch von Herzen, dass ihr uns dieses Vertrauen schenkt und uns das Gefühl gebt, etwas Gutes zu tun.
+        </p>
+        <p className="text-sm md:text-base">
+          Gleichzeit geht mit dieser tollen Nachricht auch eine Bitte einher: Bitte, erspart euch und uns die unangenehme Situation und reist OHNE TICKET BITTE NICHT AN! Unsere Kapazitätsgrenze ist mit dem Ausverkauf leider erreicht! Bald könnt ihr euch aber schon Tickets fürs nächste Jahr sichern.
         </p>
       </div>
     </section>
