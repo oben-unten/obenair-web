@@ -21,10 +21,7 @@ const StartseiteTemplate = ({
   return <>
     <section className="px-6 md:px-16 mt-20">
       <div className="max-w-2xl mx-auto bg-dark text-on-dark rounded-2xl px-6 py-5 md:px-8 md:py-6">
-        <p className="font-bold text-lg md:text-xl mb-3">Unsere Abendkasse wird knapp!</p>
-        <p className="text-sm md:text-base leading-relaxed mb-3">
-          OUT OF TICKETS! AUSVERKAUFT! WIR HABEN KEINE KARTEN MEHR!
-        </p>
+        <p className="font-bold text-lg md:text-xl mb-3">OUT OF TICKETS! AUSVERKAUFT! WIR HABEN KEINE KARTEN MEHR!!</p>
         <p className="text-sm md:text-base">
           Wir danken euch von Herzen, dass ihr uns dieses Vertrauen schenkt und uns das Gefühl gebt, etwas Gutes zu tun.
         </p>
