@@ -19,7 +19,7 @@ const StartseiteTemplate = ({
   const titleWords = (title || "").split(/\s+/).filter(Boolean);
 
   return <>
-    <section className="hero relative px-6 md:px-16 py-8 md:py-12">
+    <section className="hero relative px-6 md:px-16 py-8 md:py-12 mt-20">
       <img
         src={Kreis.src || Kreis}
         alt=""
