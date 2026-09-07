@@ -1,5 +1,5 @@
 ---
-date: 4./5. Sept. 2026
+date: 3./4. Sept. 2027
 title: oben air festival
 subtitle: An der Waldhütte auf der Buche in Pünderich
 text1: "Die Kluft zwischen Wollen und Handeln, zwischen Vorstellung und Realität
