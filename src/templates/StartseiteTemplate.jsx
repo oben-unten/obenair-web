@@ -4,6 +4,8 @@ import '../styles/Startseite.css';
 
 import Birdy from "../images/Birdy.png";
 import Kreis from "../images/Kreis.png";
+import LogoImu from "../images/logo_imu.png";
+import LogoBkm from "../images/logo_bkm.png";
 
 const StartseiteTemplate = ({
   date,
@@ -96,6 +98,23 @@ const StartseiteTemplate = ({
       <section className="px-6 md:px-16 py-8 md:py-12">
         <div className="max-w-2xl mx-auto text-on-light text-base md:text-lg leading-relaxed">
           {text3}
+        </div>
+      </section>
+    )}
+
+    {/* Förderhinweis muss laut Logorichtlinien Ende 2026 wieder entfernt werden */}
+    {new Date().getFullYear() <= 2026 && (
+      <section className="px-6 md:px-16 py-8 md:py-12">
+        <div className="max-w-2xl mx-auto text-on-light">
+          <p className="text-base md:text-lg mb-6">Gefördert von:</p>
+          <div className="flex flex-col sm:flex-row items-center gap-8 sm:gap-16">
+            <a href="https://www.initiative-musik.de" target="_blank" rel="noopener">
+              <img src={LogoImu.src || LogoImu} width={200} alt="Initiative Musik" />
+            </a>
+            <a href="https://www.kulturstaatsminister.de" target="_blank" rel="noopener">
+              <img src={LogoBkm.src || LogoBkm} width={320} alt="Der Beauftragte der Bundesregierung für Kultur und Medien" />
+            </a>
+          </div>
         </div>
       </section>
     )}
